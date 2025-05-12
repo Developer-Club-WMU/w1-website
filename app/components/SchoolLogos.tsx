@@ -28,6 +28,21 @@ const schools: School[] = [
     src: '/images/ferris.png', 
     alt: 'Ferris State University',
     url: 'https://www.ferris.edu/'
+  },
+  { 
+    src: '/images/calvin.png', 
+    alt: 'Calvin University',
+    url: 'https://calvin.edu/'
+  },
+  { 
+    src: '/images/grcc.png', 
+    alt: 'Grand Rapids Community College',
+    url: 'https://www.grcc.edu/'
+  },
+  { 
+    src: '/images/kcollege.png', 
+    alt: 'Kalamazoo College',
+    url: 'https://www.kzoo.edu/'
   }
 ];
 
