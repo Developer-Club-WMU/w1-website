@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Logo from './Logo';
+import Link from 'next/link';
 
 export default function SolidHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,10 +13,12 @@ export default function SolidHeader() {
         <div className="flex items-center justify-between h-16 sm:h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center space-x-2">
-            <Logo />
-            <h1 className="text-2xl sm:text-2xl font-bold text-amber-950">
-              Startup Community
-            </h1>
+            <Link href="/" className="flex items-center space-x-2">
+              <Logo />
+              <h1 className="text-2xl sm:text-2xl font-bold text-amber-950">
+                Startup Community
+              </h1>
+            </Link>
           </div>
 
           {/* Navigation */}

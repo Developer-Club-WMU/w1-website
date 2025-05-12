@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Logo from './Logo';
+import Link from 'next/link';
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(false);
@@ -26,12 +27,14 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 sm:h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center space-x-2">
-            <Logo />
-            <h1 className={`text-2xl sm:text-2xl font-bold transition-colors duration-300 ${
-              isVisible ? 'text-amber-950' : 'text-white'
-            }`}>
-              Startup Community
-            </h1>
+            <Link href="/" className="flex items-center space-x-2">
+              <Logo />
+              <h1 className={`text-2xl sm:text-2xl font-bold transition-colors duration-300 ${
+                isVisible ? 'text-amber-950' : 'text-white'
+              }`}>
+                Startup Community
+              </h1>
+            </Link>
           </div>
 
           {/* Navigation */}
