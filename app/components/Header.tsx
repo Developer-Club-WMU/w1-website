@@ -31,7 +31,7 @@ export default function Header() {
             <h1 className={`text-2xl font-bold transition-colors duration-300 ${
               isVisible ? 'text-amber-950' : 'text-white'
             }`}>
-              W1 Startup Accelerator
+              W1 Startup Community
             </h1>
           </div>
 
