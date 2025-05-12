@@ -37,8 +37,8 @@ const doubledSchools = [...schools, ...schools];
 export default function SchoolLogos() {
   return (
     <div className="text-center mb-16">
-      <h2 className="text-3xl font-bold text-blue-900 mb-8">Students from</h2>
-      <div className="relative w-full overflow-hidden">
+      <h2 className="text-3xl font-bold text-blue-900 mb-8">Partner Universities</h2>
+      <div className="relative w-full overflow-hidden bg-gradient-to-r from-blue-600/5 to-blue-700/5 rounded-2xl py-8">
         <div className="flex animate-scroll">
           {doubledSchools.map((school, index) => (
             <a
@@ -46,7 +46,7 @@ export default function SchoolLogos() {
               href={school.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-shrink-0 w-48 h-48 bg-white rounded-lg shadow-md p-4 mx-4 hover:shadow-lg transition-shadow duration-300"
+              className="flex-shrink-0 w-48 h-48 bg-white rounded-2xl shadow-lg p-4 mx-4 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
               <div className="relative w-full h-full">
                 <Image

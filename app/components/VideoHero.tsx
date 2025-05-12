@@ -16,33 +16,63 @@ export default function VideoHero() {
         >
           <source src="/videos/students.mp4" type="video/mp4" />
         </video>
-        {/* Blur Overlay */}
-        <div className="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/90 to-blue-700/90 backdrop-blur-sm"></div>
       </div>
       
       {/* Content Overlay */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-        <h2 className="text-5xl font-bold mb-4 text-center">
-          Build with W1
-        </h2>
-        <div className="text-2xl font-medium">
-          Assisting students with{" "}
-          <TypeAnimation
-            sequence={[
-              'development',
-              2000,
-              'planning',
-              2000,
-              'resources',
-              2000,
-              'paperwork',
-              2000,
-            ]}
-            wrapper="span"
-            speed={50}
-            repeat={Infinity}
-            className="text-blue-300"
-          />
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-6xl font-bold mb-6 text-center">
+            Build with W1
+          </h2>
+          <div className="text-3xl font-medium mb-8">
+            Assisting students with{" "}
+            <TypeAnimation
+              sequence={[
+                'development',
+                2000,
+                'planning',
+                2000,
+                'resources',
+                2000,
+                'paperwork',
+                2000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+              className="text-blue-200"
+            />
+          </div>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a
+              href="#"
+              className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-blue-700 bg-white rounded-full shadow-lg hover:bg-blue-50 transition-colors duration-300 transform hover:scale-105"
+            >
+              Get Started
+              <svg
+                className="ml-2 w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M13 7l5 5m0 0l-5 5m5-5H6"
+                />
+              </svg>
+            </a>
+            <a
+              href="#"
+              className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white border-2 border-white rounded-full hover:bg-white/10 transition-colors duration-300"
+            >
+              Learn More
+            </a>
+          </div>
         </div>
       </div>
     </div>
