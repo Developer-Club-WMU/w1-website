@@ -29,7 +29,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className={`text-2xl font-bold transition-colors duration-300 ${
-              isVisible ? 'text-blue-900' : 'text-white'
+              isVisible ? 'text-amber-950' : 'text-white'
             }`}>
               W1 Startup Accelerator
             </h1>
@@ -41,7 +41,7 @@ export default function Header() {
               href="#"
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                 isVisible
-                  ? 'bg-blue-600 text-white hover:bg-blue-700'
+                  ? 'bg-amber-900 text-white hover:bg-amber-800'
                   : 'bg-white/20 text-white hover:bg-white/30 backdrop-blur-sm'
               }`}
             >
@@ -51,8 +51,8 @@ export default function Header() {
               href="#"
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                 isVisible
-                  ? 'text-blue-900 hover:text-blue-700'
-                  : 'text-white hover:text-blue-200'
+                  ? 'text-amber-950 hover:text-amber-700'
+                  : 'text-white hover:text-amber-200'
               }`}
             >
               Learn More

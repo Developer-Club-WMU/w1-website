@@ -17,7 +17,7 @@ export default function VideoHero() {
           <source src="/videos/students.mp4" type="video/mp4" />
         </video>
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/90 to-blue-700/90 backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-amber-900/90 to-amber-950/90 backdrop-blur-sm"></div>
       </div>
       
       {/* Content Overlay */}
@@ -42,13 +42,13 @@ export default function VideoHero() {
               wrapper="span"
               speed={50}
               repeat={Infinity}
-              className="text-blue-200"
+              className="text-yellow-300"
             />
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="#"
-              className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-blue-700 bg-white rounded-full shadow-lg hover:bg-blue-50 transition-colors duration-300 transform hover:scale-105"
+              className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-amber-900 bg-white rounded-full shadow-lg hover:bg-amber-50 transition-colors duration-300 transform hover:scale-105"
             >
               Get Started
               <svg
