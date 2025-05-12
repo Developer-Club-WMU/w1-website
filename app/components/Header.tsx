@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Logo from './Logo';
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(false);
@@ -18,17 +19,18 @@ export default function Header() {
   }, []);
 
   return (
-    <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 h-16 sm:h-16` + (isVisible ? ' bg-white/95 backdrop-blur-md shadow-lg' : ' bg-transparent')}
-    >
+    <header className={`fixed w-full z-50 transition-all duration-300 ${
+      isVisible ? 'bg-white shadow-md' : 'bg-transparent'
+    }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center space-x-2">
+            <Logo />
             <h1 className={`text-2xl sm:text-2xl font-bold transition-colors duration-300 ${
               isVisible ? 'text-amber-950' : 'text-white'
             }`}>
-              W1 Startup Community
+              Startup Community
             </h1>
           </div>
 
