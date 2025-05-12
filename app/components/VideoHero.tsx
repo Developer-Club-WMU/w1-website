@@ -17,7 +17,7 @@ export default function VideoHero() {
           <source src="/videos/students.mp4" type="video/mp4" />
         </video>
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-amber-900/90 to-amber-950/90 backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-amber-900/70 to-amber-950/70 backdrop-blur-sm"></div>
       </div>
       
       {/* Content Overlay */}
