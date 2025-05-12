@@ -27,7 +27,7 @@ export default function Home() {
             <div>
               <h3 className="text-sm font-semibold mb-4">About Us</h3>
               <p className="text-sm text-amber-100">
-                W1 Startup Accelerator helps early-stage startups grow and succeed through mentorship, resources, and connections.
+                W1 Startup Community helps students turn ideas into startups through mentorship, resources, and connections.
               </p>
             </div>
             <div>
@@ -35,20 +35,19 @@ export default function Home() {
               <ul className="space-y-2">
                 <li><a href="#" className="text-sm text-amber-100 hover:text-white">Apply Now</a></li>
                 <li><a href="#" className="text-sm text-amber-100 hover:text-white">Program Details</a></li>
-                <li><a href="#" className="text-sm text-amber-100 hover:text-white">Success Stories</a></li>
               </ul>
             </div>
             <div>
               <h3 className="text-sm font-semibold mb-4">Contact</h3>
               <ul className="space-y-2">
-                <li className="text-sm text-amber-100">Email: contact@w1accelerator.com</li>
-                <li className="text-sm text-amber-100">Phone: (555) 123-4567</li>
+                <li className="text-sm text-amber-100">Email: contact@w1.devwmu.com</li>
+                <li className="text-sm text-amber-100">Phone: (999) 999-9999</li>
               </ul>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-amber-800">
             <p className="text-sm text-amber-100 text-center">
-              © {new Date().getFullYear()} W1 Startup Accelerator. All rights reserved.
+              © {new Date().getFullYear()} W1 Startup Community. All rights reserved.
             </p>
           </div>
         </div>
