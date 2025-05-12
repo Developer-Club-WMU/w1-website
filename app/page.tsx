@@ -15,15 +15,6 @@ export default function Home() {
         <VideoHero />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-blue-900 mb-4">
-              Accelerate Your Startup Journey
-            </h2>
-            <p className="text-xl text-blue-700 max-w-2xl mx-auto">
-              Each group will have a dynamic path set for success based on their idea, whether its a web app, developer tool, piece of hardware, or something else
-            </p>
-          </div>
-
           <Roadmap />
           <ApplicationSection />
           <SchoolLogos />

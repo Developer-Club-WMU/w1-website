@@ -45,8 +45,12 @@ const roadmap: Stage[] = [
 export default function Roadmap() {
   return (
     <div className="relative mb-16">
-      {/* Connecting Line */}
-      <div className="absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-blue-600/20 via-blue-600/40 to-blue-600/20 transform -translate-y-1/2 hidden md:block"></div>
+      <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-8 text-center">
+        10 Week Program
+      </h2>
+      
+      {/* Blue connecting line positioned to pass through the center of the boxes */}
+      <div className="absolute left-0 right-0 top-1/2 h-1 bg-gradient-to-r from-blue-600/20 via-blue-600/40 to-blue-600/20 transform -translate-y-1/2 hidden md:block z-0"></div>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
         {roadmap.map((stage, index) => (
