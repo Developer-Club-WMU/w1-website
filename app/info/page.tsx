@@ -35,12 +35,13 @@ export default function Info() {
                 </ol>
               </div>
               <div className="bg-amber-100 p-8 rounded-lg flex flex-col items-center justify-center space-y-6">
+                <h3 className="text-2xl font-bold text-amber-900">Fall 2025 Batch</h3>
                 <button className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors duration-200 transform hover:scale-105 shadow-lg">
                   Apply Now
                 </button>
                 <div className="text-center">
-                  <p className="text-amber-900 font-medium">Next Deadline:</p>
-                  <p className="text-amber-800 text-lg font-semibold">May 1st, 2024</p>
+                  <p className="text-amber-900 font-medium">Application Deadline:</p>
+                  <p className="text-amber-800 text-lg font-semibold">August 1st, 2025</p>
                 </div>
               </div>
             </div>
