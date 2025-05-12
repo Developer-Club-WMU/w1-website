@@ -40,7 +40,7 @@ export default function Home() {
             <div>
               <h3 className="text-sm font-semibold mb-4">Contact</h3>
               <ul className="space-y-2">
-                <li className="text-sm text-amber-100">Email: contact@w1.devwmu.com</li>
+                <li className="text-sm text-amber-100">Email: w1@devwmu.com</li>
                 <li className="text-sm text-amber-100">Phone: (999) 999-9999</li>
               </ul>
             </div>
