@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 export default function VideoHero() {
   return (
-    <div className="relative h-[60vh] w-full overflow-hidden">
+    <div className="relative h-[80vh] w-full overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0">
         <video
@@ -23,10 +23,10 @@ export default function VideoHero() {
       {/* Content Overlay */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
         <h2 className="text-5xl font-bold mb-4 text-center">
-          W1 West Michigan Accelerator
+          Build with W1
         </h2>
         <div className="text-2xl font-medium">
-          Helping with{" "}
+          Assisting students with{" "}
           <TypeAnimation
             sequence={[
               'development',
