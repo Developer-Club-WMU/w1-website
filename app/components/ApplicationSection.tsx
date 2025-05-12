@@ -10,7 +10,7 @@ export default function ApplicationSection() {
               Fall 2025 Batch Applications Now Open
             </h2>
             <p className="text-amber-100 text-lg mb-8 max-w-2xl mx-auto">
-              Join our next cohort of innovative startups and transform your idea into a successful business. Limited spots available.
+              Join our next cohort of innovative students and transform an idea into a successful business. Limited spots available.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
