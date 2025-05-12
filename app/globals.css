@@ -43,10 +43,10 @@ body {
   will-change: transform;
 }
 
-/* Much slower animation on mobile */
+/* Faster animation on mobile */
 @media (max-width: 640px) {
   .animate-infinite-scroll {
-    animation: infinite-scroll 80s linear infinite;
+    animation: infinite-scroll 45s linear infinite;
   }
 }
 
@@ -67,5 +67,11 @@ body {
 
 /* Add padding to container to prevent hover clipping */
 .overflow-hidden {
-  padding: 1rem 0;
+  padding: 0.5rem 0;
+}
+
+@media (min-width: 640px) {
+  .overflow-hidden {
+    padding: 1rem 0;
+  }
 }
