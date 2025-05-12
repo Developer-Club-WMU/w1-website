@@ -14,9 +14,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "W1 Startup Community",
-  description: "W1 Startup Community helps early-stage startups grow and succeed through mentorship, resources, and connections.",
+  description: "W1 Startup Community based in West Michigan helps students turn project ideas into startups through mentorship, resources, and connections.",
   icons: {
-    icon: '/favicon.svg'
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon.svg', type: 'image/svg+xml' }
+    ]
   }
 };
 
