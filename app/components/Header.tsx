@@ -49,7 +49,7 @@ export default function Header() {
                 Apply Now
               </a>
               <a
-                href="#"
+                href="/info"
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                   isVisible
                     ? 'text-amber-950 hover:text-amber-700'
@@ -80,7 +80,7 @@ export default function Header() {
                     Apply Now
                   </a>
                   <a
-                    href="#"
+                    href="/info"
                     className="block px-4 py-2 text-amber-950 hover:bg-amber-50 text-sm font-medium"
                   >
                     Learn More

@@ -67,7 +67,7 @@ export default function VideoHero() {
               </svg>
             </a>
             <a
-              href="#"
+              href="/info"
               className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 text-lg font-medium text-white border-2 border-white rounded-full hover:bg-white/10 transition-colors duration-300"
             >
               Learn More
