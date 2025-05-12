@@ -46,7 +46,7 @@ export default function Roadmap() {
   return (
     <div className="relative mb-16">
       <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-8 text-center">
-        10 Week Program
+        Start Your Journey
       </h2>
       
       {/* Blue connecting line positioned to pass through the center of the boxes */}
