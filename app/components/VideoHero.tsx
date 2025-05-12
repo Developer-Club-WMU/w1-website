@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 export default function VideoHero() {
   return (
-    <div className="relative h-[80vh] w-full overflow-hidden">
+    <div className="relative h-[60vh] sm:h-[80vh] w-full overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0">
         <video
@@ -21,12 +21,12 @@ export default function VideoHero() {
       </div>
       
       {/* Content Overlay */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-6xl font-bold mb-6 text-center">
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-4 py-8 sm:py-0">
+        <div className="max-w-4xl mx-auto w-full text-center">
+          <h2 className="text-4xl sm:text-6xl font-bold mb-4 sm:mb-6 text-center">
             Build with W1
           </h2>
-          <div className="text-3xl font-medium mb-8">
+          <div className="text-xl sm:text-3xl font-medium mb-6 sm:mb-8">
             Assisting students with{" "}
             <TypeAnimation
               sequence={[
@@ -45,10 +45,10 @@ export default function VideoHero() {
               className="text-yellow-300"
             />
           </div>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-4 justify-center items-center w-full mt-10 sm:mt-0">
             <a
               href="#"
-              className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-amber-900 bg-white rounded-full shadow-lg hover:bg-amber-50 transition-colors duration-300 transform hover:scale-105"
+              className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 text-lg font-medium text-amber-900 bg-white rounded-full shadow-lg hover:bg-amber-50 transition-colors duration-300 transform hover:scale-105"
             >
               Get Started
               <svg
@@ -68,7 +68,7 @@ export default function VideoHero() {
             </a>
             <a
               href="#"
-              className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white border-2 border-white rounded-full hover:bg-white/10 transition-colors duration-300"
+              className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 text-lg font-medium text-white border-2 border-white rounded-full hover:bg-white/10 transition-colors duration-300"
             >
               Learn More
             </a>

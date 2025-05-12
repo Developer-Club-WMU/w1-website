@@ -45,24 +45,24 @@ const roadmap: Stage[] = [
 export default function Roadmap() {
   return (
     <div className="relative mb-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-amber-950 mb-8 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-amber-950 mb-6 sm:mb-8 text-center px-2">
         Start Your Journey
       </h2>
       
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 px-2">
         {roadmap.map((stage, index) => (
-          <div key={index} className="bg-white rounded-2xl shadow-xl border border-amber-100 p-8 flex flex-col items-center text-center transform transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl">
+          <div key={index} className="bg-white rounded-2xl shadow-xl border border-amber-100 p-5 sm:p-8 flex flex-col items-center text-center transform transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl">
             {/* Icon inside the card */}
-            <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-amber-900 to-amber-950 rounded-full flex items-center justify-center text-white shadow-lg mb-4">
+            <div className="flex-shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-amber-900 to-amber-950 rounded-full flex items-center justify-center text-white shadow-lg mb-3 sm:mb-4">
               {stage.icon}
             </div>
-            <div className="flex items-center justify-center gap-2 mb-4">
-              <h3 className="text-xl font-bold text-amber-950">{stage.stage}</h3>
-              <span className="text-sm font-medium text-amber-900 bg-amber-50 px-4 py-1.5 rounded-full">
+            <div className="flex items-center justify-center gap-2 mb-3 sm:mb-4">
+              <h3 className="text-lg sm:text-xl font-bold text-amber-950">{stage.stage}</h3>
+              <span className="text-xs sm:text-sm font-medium text-amber-900 bg-amber-50 px-3 sm:px-4 py-1 rounded-full">
                 {stage.duration}
               </span>
             </div>
-            <ul className="space-y-3 w-full text-left">
+            <ul className="space-y-2 sm:space-y-3 w-full text-left">
               {stage.tasks.map((task, taskIndex) => (
                 <li key={taskIndex} className="flex items-start">
                   <span className="text-amber-900 mr-2">•</span>

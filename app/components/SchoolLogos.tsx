@@ -61,14 +61,14 @@ export default function SchoolLogos() {
               href={school.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-shrink-0 w-48 h-48 bg-white rounded-2xl shadow-lg p-4 mx-4 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              className="flex-shrink-0 w-24 h-24 sm:w-48 sm:h-48 bg-white rounded-2xl shadow-lg p-2 sm:p-4 mx-2 sm:mx-4 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
               <div className="relative w-full h-full">
                 <Image
                   src={school.src}
                   alt={school.alt}
                   fill
-                  className="object-contain p-4"
+                  className="object-contain p-2 sm:p-4"
                   priority
                 />
               </div>
