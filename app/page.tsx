@@ -2,8 +2,44 @@
 
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+  const [currentLogoIndex, setCurrentLogoIndex] = useState(0);
+  const logos = [
+    { 
+      src: '/images/wmu.png', 
+      alt: 'Western Michigan University',
+      url: 'https://wmich.edu/'
+    },
+    { 
+      src: '/images/kvcc.png', 
+      alt: 'Kalamazoo Valley Community College',
+      url: 'https://www.kvcc.edu/'
+    },
+    { 
+      src: '/images/gvsu.png', 
+      alt: 'Grand Valley State University',
+      url: 'https://www.gvsu.edu/'
+    },
+    { 
+      src: '/images/ferris.png', 
+      alt: 'Ferris State University',
+      url: 'https://www.ferris.edu/'
+    }
+  ];
+
+  // Double the logos array to create seamless loop
+  const doubledLogos = [...logos, ...logos];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentLogoIndex((prevIndex) => (prevIndex + 1) % logos.length);
+    }, 3000); // Change logo every 3 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+
   const roadmap = [
     {
       stage: "Stage 1: Ideation",
@@ -98,7 +134,7 @@ export default function Home() {
           </div>
 
           {/* Roadmap Section */}
-          <div className="space-y-8">
+          <div className="space-y-8 mb-16">
             {roadmap.map((stage, index) => (
               <div key={index} className="bg-white p-8 rounded-lg shadow-md border border-blue-100">
                 <div className="flex items-center justify-between mb-4">
@@ -115,6 +151,34 @@ export default function Home() {
                 </ul>
               </div>
             ))}
+          </div>
+
+          {/* University Logos Section */}
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold text-blue-900 mb-8">Students from</h2>
+            <div className="relative w-full overflow-hidden">
+              <div className="flex animate-scroll">
+                {doubledLogos.map((logo, index) => (
+                  <a
+                    key={index}
+                    href={logo.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-shrink-0 w-48 h-48 bg-white rounded-lg shadow-md p-4 mx-4 hover:shadow-lg transition-shadow duration-300"
+                  >
+                    <div className="relative w-full h-full">
+                      <Image
+                        src={logo.src}
+                        alt={logo.alt}
+                        fill
+                        className="object-contain p-4"
+                        priority
+                      />
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </main>
