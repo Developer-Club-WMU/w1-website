@@ -29,19 +29,43 @@ body {
 @tailwind components;
 @tailwind utilities;
 
-@keyframes scroll {
-  0% {
+@keyframes infinite-scroll {
+  from {
     transform: translateX(0);
   }
-  100% {
+  to {
     transform: translateX(-50%);
   }
 }
 
-.animate-scroll {
-  animation: scroll 20s linear infinite;
+.animate-infinite-scroll {
+  animation: infinite-scroll 30s linear infinite;
+  will-change: transform;
 }
 
-.animate-scroll:hover {
+/* Much slower animation on mobile */
+@media (max-width: 640px) {
+  .animate-infinite-scroll {
+    animation: infinite-scroll 80s linear infinite;
+  }
+}
+
+.animate-infinite-scroll:hover {
   animation-play-state: paused;
+}
+
+/* Ensure the container doesn't clip the hover effect */
+.animate-infinite-scroll > * {
+  position: relative;
+  z-index: 1;
+}
+
+.animate-infinite-scroll > *:hover {
+  z-index: 2;
+  transform: scale(1.05);
+}
+
+/* Add padding to container to prevent hover clipping */
+.overflow-hidden {
+  padding: 1rem 0;
 }
