@@ -18,8 +18,8 @@ const roadmap: Stage[] = [
     duration: "1-2 weeks",
     icon: <FaLightbulb className="w-8 h-8" />,
     tasks: [
-      "Refine your startup concept through market research",
-      "Assemble your founding team and define roles"
+      "Find and improve your startup idea",
+      "Assemble your founding team with roles"
     ]
   },
   {
@@ -37,7 +37,7 @@ const roadmap: Stage[] = [
     icon: <MdRocketLaunch className="w-8 h-8" />,
     tasks: [
       "Establish legal structure and business operations",
-      "Secure initial customers and strategic partnerships"
+      "Secure initial customers and strategic partners"
     ]
   }
 ];
@@ -49,38 +49,27 @@ export default function Roadmap() {
         Start Your Journey
       </h2>
       
-      {/* Dark brown connecting line positioned to pass through the center of the boxes */}
-      <div className="absolute left-0 right-0 top-1/2 h-1 bg-gradient-to-r from-amber-900/20 via-amber-900/40 to-amber-900/20 transform -translate-y-1/2 hidden md:block z-0"></div>
-      
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {roadmap.map((stage, index) => (
-          <div key={index} className="relative">
-            {/* Stage Card */}
-            <div className="flex flex-col items-center">
-              {/* Icon Circle */}
-              <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-amber-900 to-amber-950 rounded-full flex items-center justify-center text-white shadow-lg z-10 mb-6">
-                {stage.icon}
-              </div>
-              
-              {/* Content */}
-              <div className="bg-white rounded-2xl shadow-xl border border-amber-100 p-8 transform transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl w-full">
-                <div className="flex items-center justify-between mb-6">
-                  <h3 className="text-xl font-bold text-amber-950">{stage.stage}</h3>
-                  <span className="text-sm font-medium text-amber-900 bg-amber-50 px-4 py-1.5 rounded-full">
-                    {stage.duration}
-                  </span>
-                </div>
-                
-                <ul className="space-y-3">
-                  {stage.tasks.map((task, taskIndex) => (
-                    <li key={taskIndex} className="flex items-start">
-                      <span className="text-amber-900 mr-2">•</span>
-                      <span className="text-amber-950 text-sm">{task}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+          <div key={index} className="bg-white rounded-2xl shadow-xl border border-amber-100 p-8 flex flex-col items-center text-center transform transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl">
+            {/* Icon inside the card */}
+            <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-amber-900 to-amber-950 rounded-full flex items-center justify-center text-white shadow-lg mb-4">
+              {stage.icon}
             </div>
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <h3 className="text-xl font-bold text-amber-950">{stage.stage}</h3>
+              <span className="text-sm font-medium text-amber-900 bg-amber-50 px-4 py-1.5 rounded-full">
+                {stage.duration}
+              </span>
+            </div>
+            <ul className="space-y-3 w-full text-left">
+              {stage.tasks.map((task, taskIndex) => (
+                <li key={taskIndex} className="flex items-start">
+                  <span className="text-amber-900 mr-2">•</span>
+                  <span className="text-amber-950 text-sm">{task}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         ))}
       </div>
