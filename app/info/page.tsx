@@ -1,13 +1,13 @@
 'use client';
 
-import Header from '../components/Header';
+import SolidHeader from '../components/SolidHeader';
 
 export default function Info() {
   return (
     <div className="min-h-screen flex flex-col bg-amber-50">
-      <Header />
+      <SolidHeader />
       
-      <main className="flex-grow">
+      <main className="flex-grow pt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           {/* Application Info Section */}
           <section className="mb-24">
