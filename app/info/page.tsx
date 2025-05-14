@@ -9,44 +9,36 @@ export default function Info() {
       
       <main className="flex-grow pt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          {/* Application Info Section */}
+          {/* Clubs Section */}
           <section className="mb-24">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-amber-900 mb-6">About W1</h2>
+              <h2 className="text-4xl font-bold text-amber-900 mb-6">Founding Clubs</h2>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                Whether you're a student with a startup idea or just looking to join a team, 
-                W1 welcomes you to apply. Our application process is simple and straightforward.
+                W1 is supported by the following clubs at Western Michigan University
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100">
-                <h3 className="text-2xl font-semibold text-amber-800 mb-8">How to Apply</h3>
-                <ol className="space-y-8">
-                  <li className="flex items-start group">
-                    <span className="flex-shrink-0 w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center text-amber-800 font-semibold mr-4 group-hover:bg-amber-200 transition-colors">1</span>
-                    <span className="text-gray-700 text-lg pt-1">Fill out our quick application form (takes just a few minutes)</span>
-                  </li>
-                  <li className="flex items-start group">
-                    <span className="flex-shrink-0 w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center text-amber-800 font-semibold mr-4 group-hover:bg-amber-200 transition-colors">2</span>
-                    <span className="text-gray-700 text-lg pt-1">Schedule a casual 10-minute Zoom call with a W1 Advisor</span>
-                  </li>
-                  <li className="flex items-start group">
-                    <span className="flex-shrink-0 w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center text-amber-800 font-semibold mr-4 group-hover:bg-amber-200 transition-colors">3</span>
-                    <span className="text-gray-700 text-lg pt-1">Get started on your startup journey!</span>
-                  </li>
-                </ol>
+              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 flex flex-col items-center justify-center">
+                <h3 className="text-2xl font-semibold text-amber-800 mb-6">Developer Club at WMU</h3>
+                <div className="w-48 h-48 bg-amber-50 rounded-full mb-6 flex items-center justify-center">
+                  {/* Developer Club Logo Placeholder */}
+                  <div className="text-6xl font-bold text-amber-600">&lt;/&gt;</div>
+                </div>
+                <p className="text-gray-700 text-center">
+                  A community of student developers building the next generation of technology
+                </p>
               </div>
 
-              <div className="bg-amber-100/80 backdrop-blur-sm p-10 rounded-2xl flex flex-col items-center justify-center space-y-8 border border-amber-200">
-                <h3 className="text-3xl font-bold text-amber-900">Fall 2025 Batch</h3>
-                <button className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-4 px-12 rounded-xl text-xl transition-all duration-200 transform hover:scale-105 hover:shadow-xl shadow-lg">
-                  Apply Now
-                </button>
-                <div className="text-center">
-                  <p className="text-amber-900 font-medium text-lg">Application Deadline:</p>
-                  <p className="text-amber-800 text-2xl font-semibold">August 1st, 2025</p>
+              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 flex flex-col items-center justify-center">
+                <h3 className="text-2xl font-semibold text-amber-800 mb-6">Data Science Club at WMU</h3>
+                <div className="w-48 h-48 bg-amber-50 rounded-full mb-6 flex items-center justify-center">
+                  {/* Data Science Club Logo Placeholder */}
+                  <div className="text-6xl font-bold text-amber-600">📊</div>
                 </div>
+                <p className="text-gray-700 text-center">
+                  Exploring data-driven solutions to complex problems through analysis and machine learning
+                </p>
               </div>
             </div>
           </section>
@@ -128,6 +120,47 @@ export default function Info() {
                     <span className="text-lg">Networking events</span>
                   </li>
                 </ul>
+              </div>
+            </div>
+          </section>
+          {/* Application Info Section */}
+          <section className="mb-24">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-amber-900 mb-6">Apply to W1</h2>
+              <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+                Whether you're a student with a startup idea or just looking to join a team, 
+                W1 welcomes you to apply. Our application process is simple and straightforward.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100">
+                <h3 className="text-2xl font-semibold text-amber-800 mb-8">How to Apply</h3>
+                <ol className="space-y-8">
+                  <li className="flex items-start group">
+                    <span className="flex-shrink-0 w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center text-amber-800 font-semibold mr-4 group-hover:bg-amber-200 transition-colors">1</span>
+                    <span className="text-gray-700 text-lg pt-1">Fill out our quick application form (takes just a few minutes)</span>
+                  </li>
+                  <li className="flex items-start group">
+                    <span className="flex-shrink-0 w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center text-amber-800 font-semibold mr-4 group-hover:bg-amber-200 transition-colors">2</span>
+                    <span className="text-gray-700 text-lg pt-1">Schedule a casual 10-minute Zoom call with a W1 Advisor</span>
+                  </li>
+                  <li className="flex items-start group">
+                    <span className="flex-shrink-0 w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center text-amber-800 font-semibold mr-4 group-hover:bg-amber-200 transition-colors">3</span>
+                    <span className="text-gray-700 text-lg pt-1">Get started on your startup journey!</span>
+                  </li>
+                </ol>
+              </div>
+
+              <div className="bg-amber-100/80 backdrop-blur-sm p-10 rounded-2xl flex flex-col items-center justify-center space-y-8 border border-amber-200">
+                <h3 className="text-3xl font-bold text-amber-900">Fall 2025 Batch</h3>
+                <button className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-4 px-12 rounded-xl text-xl transition-all duration-200 transform hover:scale-105 hover:shadow-xl shadow-lg">
+                  Apply Now
+                </button>
+                <div className="text-center">
+                  <p className="text-amber-900 font-medium text-lg">Application Deadline:</p>
+                  <p className="text-amber-800 text-2xl font-semibold">August 1st, 2025</p>
+                </div>
               </div>
             </div>
           </section>
