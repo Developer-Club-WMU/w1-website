@@ -12,6 +12,7 @@ export default function VideoHero() {
           loop
           muted
           playsInline
+          preload="auto"
           className="w-full h-full object-cover"
         >
           <source src="/videos/students.mp4" type="video/mp4" />
