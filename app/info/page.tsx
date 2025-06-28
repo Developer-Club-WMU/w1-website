@@ -213,7 +213,7 @@ export default function Info() {
                 </button>
                 <div className="text-center">
                   <p className="text-amber-900 font-medium text-lg">Application Deadline:</p>
-                  <p className="text-amber-800 text-2xl font-semibold">August 1st, 2025</p>
+                  <p className="text-amber-800 text-2xl font-semibold">September 3rd, 2025</p>
                 </div>
               </div>
             </div>
