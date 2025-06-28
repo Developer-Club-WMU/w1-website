@@ -14,8 +14,8 @@ interface Stage {
 
 const roadmap: Stage[] = [
   {
-    stage: "Stage 1: Ideation",
-    duration: "1-2 weeks",
+    stage: "Stage 1: Idea",
+    duration: "2-3 weeks",
     icon: <FaLightbulb className="w-8 h-8" />,
     tasks: [
       "Find and improve your startup idea",
@@ -23,8 +23,8 @@ const roadmap: Stage[] = [
     ]
   },
   {
-    stage: "Stage 2: MVP",
-    duration: "2-4 weeks",
+    stage: "Stage 2: Build",
+    duration: "3-4 weeks",
     icon: <BsLayers className="w-8 h-8" />,
     tasks: [
       "Develop a functional prototype with core features",
@@ -33,7 +33,7 @@ const roadmap: Stage[] = [
   },
   {
     stage: "Stage 3: Launch",
-    duration: "2-4 weeks",
+    duration: "2-3 weeks",
     icon: <MdRocketLaunch className="w-8 h-8" />,
     tasks: [
       "Establish legal structure and business operations",

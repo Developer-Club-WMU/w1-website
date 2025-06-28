@@ -1,6 +1,7 @@
 'use client';
 
 import SolidHeader from '../components/SolidHeader';
+import { FaFilePdf, FaFileAlt, FaFileContract, FaExternalLinkAlt } from 'react-icons/fa';
 
 export default function Info() {
   return (
@@ -38,6 +39,59 @@ export default function Info() {
                 </div>
                 <p className="text-gray-700 text-center">
                   Exploring data-driven solutions to complex problems through analysis and machine learning
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* Documents Section */}
+          <section className="mb-24">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-amber-900 mb-6">Documents</h2>
+              <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+                Important documents and resources for W1 participants
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              {/* Schedule Document */}
+              <a 
+                href="https://drive.google.com/file/d/1HETB7xo55wz5FuLTdKM9ugwBoDBgeVec/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 hover:shadow-xl transition-all hover:scale-105 flex flex-col items-center"
+              >
+                <div className="w-16 h-16 text-amber-600 mb-4">
+                  <FaFilePdf className="w-full h-full" />
+                </div>
+                <h3 className="text-2xl font-semibold text-amber-800 mb-2">Program Schedule</h3>
+                <p className="text-gray-700 text-center mb-4">
+                  Complete timeline for the W1 build program
+                </p>
+                <span className="flex items-center text-amber-600 font-medium">
+                  View PDF <FaExternalLinkAlt className="ml-2" />
+                </span>
+              </a>
+
+              {/* Placeholder for future documents */}
+              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 flex flex-col items-center opacity-70">
+                <div className="w-16 h-16 text-amber-500 mb-4">
+                  <FaFileContract className="w-full h-full" />
+                </div>
+                <h3 className="text-2xl font-semibold text-amber-800 mb-2">Member Agreement</h3>
+                <p className="text-gray-700 text-center mb-4">
+                  Coming soon
+                </p>
+              </div>
+
+              {/* Placeholder for future documents */}
+              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 flex flex-col items-center opacity-70">
+                <div className="w-16 h-16 text-amber-500 mb-4">
+                  <FaFileAlt className="w-full h-full" />
+                </div>
+                <h3 className="text-2xl font-semibold text-amber-800 mb-2">Resources Guide</h3>
+                <p className="text-gray-700 text-center mb-4">
+                  Coming soon
                 </p>
               </div>
             </div>
@@ -159,7 +213,7 @@ export default function Info() {
                 </button>
                 <div className="text-center">
                   <p className="text-amber-900 font-medium text-lg">Application Deadline:</p>
-                  <p className="text-amber-800 text-2xl font-semibold">August 1st, 2025</p>
+                  <p className="text-amber-800 text-2xl font-semibold">September 3rd, 2025</p>
                 </div>
               </div>
             </div>
