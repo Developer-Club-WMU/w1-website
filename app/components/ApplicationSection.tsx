@@ -41,8 +41,7 @@ export default function ApplicationSection() {
               </a>
             </div>
             <p className="mt-6 text-sm text-amber-200">
-              Project deadline: September 3, 2025 <br />
-              Join deadline: September 14, 2025
+              Application deadline: September 3, 2025
             </p>
           </div>
         </div>
