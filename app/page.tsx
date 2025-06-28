@@ -34,14 +34,14 @@ export default function Home() {
               <h3 className="text-sm font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 <li><a href="#" className="text-sm text-amber-100 hover:text-white">Apply Now</a></li>
-                <li><a href="#" className="text-sm text-amber-100 hover:text-white">Program Details</a></li>
+                <li><a href="/info" className="text-sm text-amber-100 hover:text-white">Program Details</a></li>
               </ul>
             </div>
             <div>
               <h3 className="text-sm font-semibold mb-4">Contact</h3>
               <ul className="space-y-2">
-                <li className="text-sm text-amber-100">Email: w1@devwmu.com</li>
-                <li className="text-sm text-amber-100">Phone: (999) 999-9999</li>
+                <li className="text-sm text-amber-100">Email: coming soon</li>
+                <li className="text-sm text-amber-100">Phone: coming soon</li>
               </ul>
             </div>
           </div>

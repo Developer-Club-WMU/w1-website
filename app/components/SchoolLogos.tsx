@@ -46,50 +46,38 @@ const schools: School[] = [
   }
 ];
 
+const SchoolLogo = ({ school, index }: { school: School, index: number }) => (
+  <a
+    href={school.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="logo-item flex-shrink-0 w-20 h-20 sm:w-48 sm:h-48 bg-white rounded-2xl shadow-lg p-2 sm:p-4 mx-1 sm:mx-4 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+  >
+    <div className="relative w-full h-full">
+      <Image
+        src={school.src}
+        alt={school.alt}
+        fill
+        className="object-contain p-1 sm:p-4"
+        priority
+      />
+    </div>
+  </a>
+);
+
 export default function SchoolLogos() {
   return (
     <div className="text-center mb-16">
       <h2 className="text-3xl font-bold text-amber-950 mb-8">Students From</h2>
       <div className="relative w-full bg-gradient-to-r from-amber-900/5 to-amber-950/5 rounded-2xl py-4 sm:py-8">
-        <div className="overflow-hidden">
-          <div className="flex animate-infinite-scroll">
+        <div className="logos-scroll-container">
+          <div className="logos-scroll">
             {schools.map((school, index) => (
-              <a
-                key={`first-${index}`}
-                href={school.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-shrink-0 w-20 h-20 sm:w-48 sm:h-48 bg-white rounded-2xl shadow-lg p-2 sm:p-4 mx-1 sm:mx-4 hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:z-10"
-              >
-                <div className="relative w-full h-full">
-                  <Image
-                    src={school.src}
-                    alt={school.alt}
-                    fill
-                    className="object-contain p-1 sm:p-4"
-                    priority
-                  />
-                </div>
-              </a>
+              <SchoolLogo key={index} school={school} index={index} />
             ))}
+            {/* Clone of logos for seamless looping */}
             {schools.map((school, index) => (
-              <a
-                key={`second-${index}`}
-                href={school.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-shrink-0 w-20 h-20 sm:w-48 sm:h-48 bg-white rounded-2xl shadow-lg p-2 sm:p-4 mx-1 sm:mx-4 hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:z-10"
-              >
-                <div className="relative w-full h-full">
-                  <Image
-                    src={school.src}
-                    alt={school.alt}
-                    fill
-                    className="object-contain p-1 sm:p-4"
-                    priority
-                  />
-                </div>
-              </a>
+              <SchoolLogo key={`clone-${index}`} school={school} index={index} />
             ))}
           </div>
         </div>

@@ -24,49 +24,59 @@ body {
 @tailwind components;
 @tailwind utilities;
 
-@keyframes infinite-scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-.animate-infinite-scroll {
-  animation: infinite-scroll 30s linear infinite;
-  will-change: transform;
-}
-
-/* Faster animation on mobile */
-@media (max-width: 640px) {
-  .animate-infinite-scroll {
-    animation: infinite-scroll 45s linear infinite;
-  }
-}
-
-.animate-infinite-scroll:hover {
-  animation-play-state: paused;
-}
-
-/* Ensure the container doesn't clip the hover effect */
-.animate-infinite-scroll > * {
+/* School Logo Infinite Scroll - Simplified Version */
+.logos-scroll-container {
+  width: 100%;
+  overflow: hidden;
   position: relative;
-  z-index: 1;
-}
-
-.animate-infinite-scroll > *:hover {
-  z-index: 2;
-  transform: scale(1.05);
-}
-
-/* Add padding to container to prevent hover clipping */
-.overflow-hidden {
   padding: 0.5rem 0;
 }
 
+.logos-scroll {
+  display: flex;
+  position: relative;
+  animation: scroll 30s linear infinite;
+  width: max-content; /* Ensures no wrapping */
+}
+
+/* Adjust scroll speed for different screen sizes */
+@media (max-width: 640px) {
+  .logos-scroll {
+    animation: scroll 25s linear infinite;
+  }
+}
+
+/* Logo item styling */
+.logo-item {
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo-item:hover {
+  z-index: 10;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Pause on hover */
+.logos-scroll:hover {
+  animation-play-state: paused;
+}
+
+/* The scroll animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* Move exactly to the start of the duplicated set */
+    transform: translateX(calc(-50%));
+  }
+}
+
+/* Responsive padding adjustments */
 @media (min-width: 640px) {
-  .overflow-hidden {
+  .logos-scroll-container {
     padding: 1rem 0;
   }
 }
