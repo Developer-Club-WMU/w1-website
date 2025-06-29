@@ -208,9 +208,13 @@ export default function Info() {
 
               <div className="bg-amber-100/80 backdrop-blur-sm p-10 rounded-2xl flex flex-col items-center justify-center space-y-8 border border-amber-200">
                 <h3 className="text-3xl font-bold text-amber-900">Fall 2025 Batch</h3>
+                
                 <button className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-4 px-12 rounded-xl text-xl transition-all duration-200 transform hover:scale-105 hover:shadow-xl shadow-lg">
+                  <a href="/join">  
                   Apply Now
+                  </a>
                 </button>
+                
                 <div className="text-center">
                   <p className="text-amber-900 font-medium text-lg">Application Deadline:</p>
                   <p className="text-amber-800 text-2xl font-semibold">September 3rd, 2025</p>

@@ -26,7 +26,7 @@ export default function SolidHeader() {
             {/* Desktop nav */}
             <div className="hidden sm:flex items-center space-x-4">
               <a
-                href="#"
+                href="/join"
                 className="px-4 py-2 rounded-full text-sm font-medium bg-amber-900 text-white hover:bg-amber-800 transition-all duration-300"
               >
                 Apply Now
