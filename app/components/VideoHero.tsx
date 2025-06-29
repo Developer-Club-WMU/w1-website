@@ -48,7 +48,7 @@ export default function VideoHero() {
           </div>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-4 justify-center items-center w-full mt-10 sm:mt-0">
             <a
-              href="#"
+              href="/join"
               className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 text-lg font-medium text-amber-900 bg-white rounded-full shadow-lg hover:bg-amber-50 transition-colors duration-300 transform hover:scale-105"
             >
               Get Started

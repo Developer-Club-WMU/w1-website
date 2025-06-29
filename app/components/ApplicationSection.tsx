@@ -14,7 +14,7 @@ export default function ApplicationSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
-                href="#"
+                href="/join"
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-amber-900 bg-white rounded-full shadow-lg hover:bg-amber-50 transition-colors duration-300 transform hover:scale-105"
               >
                 Apply Now
