@@ -11,52 +11,6 @@ export default function Info() {
       
       <main className="flex-grow pt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          {/* Clubs Section */}
-          <section className="mb-24">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-amber-900 mb-6">Founding Clubs</h2>
-              <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                W1 is supported by the following clubs at Western Michigan University
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 flex flex-col items-center justify-center">
-                <h3 className="text-2xl font-semibold text-amber-800 mb-6">Developer Club at WMU</h3>
-                <div className="w-48 h-48 bg-amber-50 rounded-full mb-6 flex items-center justify-center overflow-hidden">
-                  {/* Developer Club Logo */}
-                  <Image 
-                    src="/images/devwmu.jpeg" 
-                    alt="Developer Club at WMU logo" 
-                    width={192} 
-                    height={192} 
-                    className="object-cover"
-                  />
-                </div>
-                <p className="text-gray-700 text-center">
-                  A community of student developers building the next generation of technology
-                </p>
-              </div>
-
-              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 flex flex-col items-center justify-center">
-                <h3 className="text-2xl font-semibold text-amber-800 mb-6">Data Science Club at WMU</h3>
-                <div className="w-48 h-48 bg-amber-50 rounded-full mb-6 flex items-center justify-center overflow-hidden">
-                  {/* Data Science Club Logo */}
-                  <Image 
-                    src="/images/dscwmu.jpeg" 
-                    alt="Data Science Club at WMU logo" 
-                    width={192} 
-                    height={192} 
-                    className="object-cover"
-                  />
-                </div>
-                <p className="text-gray-700 text-center">
-                  Exploring data-driven solutions to complex problems through analysis and machine learning
-                </p>
-              </div>
-            </div>
-          </section>
-
           {/* Documents Section */}
           <section className="mb-24">
             <div className="text-center mb-16">
@@ -190,6 +144,53 @@ export default function Info() {
               </div>
             </div>
           </section>
+
+          {/* Clubs Section */}
+          <section className="mb-24">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-amber-900 mb-6">Founding Clubs</h2>
+              <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+                W1 is supported by the following clubs at Western Michigan University
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 flex flex-col items-center justify-center">
+                <h3 className="text-2xl font-semibold text-amber-800 mb-6">Developer Club at WMU</h3>
+                <div className="w-48 h-48 bg-amber-50 rounded-full mb-6 flex items-center justify-center overflow-hidden">
+                  {/* Developer Club Logo */}
+                  <Image 
+                    src="/images/devwmu.jpeg" 
+                    alt="Developer Club at WMU logo" 
+                    width={192} 
+                    height={192} 
+                    className="object-cover"
+                  />
+                </div>
+                <p className="text-gray-700 text-center">
+                  A community of student developers building the next generation of technology
+                </p>
+              </div>
+
+              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 flex flex-col items-center justify-center">
+                <h3 className="text-2xl font-semibold text-amber-800 mb-6">Data Science Club at WMU</h3>
+                <div className="w-48 h-48 bg-amber-50 rounded-full mb-6 flex items-center justify-center overflow-hidden">
+                  {/* Data Science Club Logo */}
+                  <Image 
+                    src="/images/dscwmu.jpeg" 
+                    alt="Data Science Club at WMU logo" 
+                    width={192} 
+                    height={192} 
+                    className="object-cover"
+                  />
+                </div>
+                <p className="text-gray-700 text-center">
+                  Exploring data-driven solutions to complex problems through analysis and machine learning
+                </p>
+              </div>
+            </div>
+          </section>
+          
           {/* Application Info Section */}
           <section className="mb-24">
             <div className="text-center mb-16">
