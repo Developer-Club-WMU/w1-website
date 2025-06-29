@@ -4,7 +4,7 @@ This repository contains the source code for the W1 Startup Community website, a
 
 ## About W1 Startup Community
 
-W1 is a project building program for students, hosted at Western Michigan University. It provides:
+W1 is a startup project building program for students, hosted at Western Michigan University. It provides:
 
 - **Development Resources**: Server space, Mac Minis, cloud credits, and developer fees
 - **Mentoring**: Expert speakers, development workshops, business strategy sessions, and one-on-one mentorship
@@ -49,7 +49,7 @@ npm install
 npm run dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Project Structure
 
