@@ -1,7 +1,7 @@
 'use client';
 
 import SolidHeader from '../components/SolidHeader';
-import { FaFilePdf, FaFileAlt, FaFileContract, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaFilePdf, FaFileAlt, FaFileContract, FaExternalLinkAlt, FaGlobe, FaGithub } from 'react-icons/fa';
 import Image from 'next/image';
 
 export default function Info() {
@@ -167,9 +167,27 @@ export default function Info() {
                     className="object-cover"
                   />
                 </div>
-                <p className="text-gray-700 text-center">
+                <p className="text-gray-700 text-center mb-6">
                   A community of student developers building the next generation of technology
                 </p>
+                <div className="flex space-x-4">
+                  <a 
+                    href="#" 
+                    className="flex items-center justify-center px-4 py-2 bg-amber-100 hover:bg-amber-200 text-amber-800 rounded-lg transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGlobe className="mr-2" /> Website
+                  </a>
+                  <a 
+                    href="#" 
+                    className="flex items-center justify-center px-4 py-2 bg-amber-100 hover:bg-amber-200 text-amber-800 rounded-lg transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub className="mr-2" /> GitHub
+                  </a>
+                </div>
               </div>
 
               <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 flex flex-col items-center justify-center">
@@ -184,9 +202,27 @@ export default function Info() {
                     className="object-cover"
                   />
                 </div>
-                <p className="text-gray-700 text-center">
+                <p className="text-gray-700 text-center mb-6">
                   Exploring data-driven solutions to complex problems through analysis and machine learning
                 </p>
+                <div className="flex space-x-4">
+                  <a 
+                    href="#" 
+                    className="flex items-center justify-center px-4 py-2 bg-amber-100 hover:bg-amber-200 text-amber-800 rounded-lg transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGlobe className="mr-2" /> Website
+                  </a>
+                  <a 
+                    href="#" 
+                    className="flex items-center justify-center px-4 py-2 bg-amber-100 hover:bg-amber-200 text-amber-800 rounded-lg transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub className="mr-2" /> GitHub
+                  </a>
+                </div>
               </div>
             </div>
           </section>
