@@ -172,7 +172,7 @@ export default function Info() {
                 </p>
                 <div className="flex space-x-4">
                   <a 
-                    href="#" 
+                    href="https://experiencewmu.wmich.edu/organization/developerclub" 
                     className="flex items-center justify-center px-4 py-2 bg-amber-100 hover:bg-amber-200 text-amber-800 rounded-lg transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -180,7 +180,7 @@ export default function Info() {
                     <FaGlobe className="mr-2" /> Website
                   </a>
                   <a 
-                    href="#" 
+                    href="https://github.com/Developer-Club-WMU" 
                     className="flex items-center justify-center px-4 py-2 bg-amber-100 hover:bg-amber-200 text-amber-800 rounded-lg transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -207,7 +207,7 @@ export default function Info() {
                 </p>
                 <div className="flex space-x-4">
                   <a 
-                    href="#" 
+                    href="https://experiencewmu.wmich.edu/organization/datascienceclub" 
                     className="flex items-center justify-center px-4 py-2 bg-amber-100 hover:bg-amber-200 text-amber-800 rounded-lg transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -215,7 +215,7 @@ export default function Info() {
                     <FaGlobe className="mr-2" /> Website
                   </a>
                   <a 
-                    href="#" 
+                    href="https://github.com/Data-Science-Club-at-WMU" 
                     className="flex items-center justify-center px-4 py-2 bg-amber-100 hover:bg-amber-200 text-amber-800 rounded-lg transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
