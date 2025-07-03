@@ -23,7 +23,7 @@ export default function Info() {
             <div className="grid md:grid-cols-3 gap-8">
               {/* Schedule Document */}
               <a 
-                href="https://drive.google.com/file/d/1HETB7xo55wz5FuLTdKM9ugwBoDBgeVec/view?usp=sharing" 
+                href="/schedule" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 hover:shadow-xl transition-all hover:scale-105 flex flex-col items-center"
@@ -155,16 +155,16 @@ export default function Info() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 flex flex-col items-center justify-center">
+              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 flex flex-col items-center justify-center group hover:shadow-xl transition-transform">
                 <h3 className="text-2xl font-semibold text-amber-800 mb-6">Developer Club at WMU</h3>
-                <div className="w-48 h-48 bg-amber-50 rounded-full mb-6 flex items-center justify-center overflow-hidden">
+                <div className="w-48 h-48 bg-amber-50 rounded-full mb-6 flex items-center justify-center overflow-hidden group-hover:shadow-lg transition-all duration-300">
                   {/* Developer Club Logo */}
                   <Image 
                     src="/images/devwmu.jpeg" 
                     alt="Developer Club at WMU logo" 
                     width={192} 
                     height={192} 
-                    className="object-cover"
+                    className="object-cover group-hover:scale-105 transition-all duration-300"
                   />
                 </div>
                 <p className="text-gray-700 text-center mb-6">
@@ -190,16 +190,16 @@ export default function Info() {
                 </div>
               </div>
 
-              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 flex flex-col items-center justify-center">
+              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 flex flex-col items-center justify-center group hover:shadow-xl transition-transform">
                 <h3 className="text-2xl font-semibold text-amber-800 mb-6">Data Science Club at WMU</h3>
-                <div className="w-48 h-48 bg-amber-50 rounded-full mb-6 flex items-center justify-center overflow-hidden">
+                <div className="w-48 h-48 bg-amber-50 rounded-full mb-6 flex items-center justify-center overflow-hidden group-hover:shadow-lg transition-all duration-300">
                   {/* Data Science Club Logo */}
                   <Image 
                     src="/images/dscwmu.jpeg" 
                     alt="Data Science Club at WMU logo" 
                     width={192} 
                     height={192} 
-                    className="object-cover"
+                    className="object-cover group-hover:scale-105 transition-all duration-300"
                   />
                 </div>
                 <p className="text-gray-700 text-center mb-6">
