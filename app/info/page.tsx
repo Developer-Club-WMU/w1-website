@@ -23,7 +23,7 @@ export default function Info() {
             <div className="grid md:grid-cols-3 gap-8">
               {/* Schedule Document */}
               <a 
-                href="https://drive.google.com/file/d/1HETB7xo55wz5FuLTdKM9ugwBoDBgeVec/view?usp=sharing" 
+                href="/schedule" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100 hover:shadow-xl transition-all hover:scale-105 flex flex-col items-center"
