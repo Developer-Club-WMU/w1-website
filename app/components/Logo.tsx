@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 interface LogoProps {
   className?: string;
@@ -7,9 +8,13 @@ interface LogoProps {
 export default function Logo({ className = '' }: LogoProps) {
   return (
     <div className={`flex items-center ${className}`}>
-      <div className="w-10 h-10 rounded-full bg-amber-950 flex items-center justify-center">
-        <span className="text-white font-bold text-xl">W1</span>
-      </div>
+      <Image 
+        src="/w1_logo.png" 
+        alt="W1 Logo" 
+        width={40} 
+        height={40} 
+        className="w-10 h-10 object-contain"
+      />
     </div>
   );
 } 
