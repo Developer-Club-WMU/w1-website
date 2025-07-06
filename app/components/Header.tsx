@@ -26,8 +26,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-16">
           {/* Logo */}
-          <div className="flex-shrink-0 flex items-center space-x-2">
-            <Link href="/" className="flex items-center space-x-2">
+          <div className="flex-shrink-0 flex items-center space-x-3">
+            <Link href="/" className="flex items-center space-x-3">
               <Logo />
               <h1 className={`text-2xl sm:text-2xl font-bold transition-colors duration-300 ${
                 isVisible ? 'text-amber-950' : 'text-white'

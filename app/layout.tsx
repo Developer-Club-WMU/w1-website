@@ -51,8 +51,7 @@ export const metadata: Metadata = {
   description: "W1 Startup Community based in West Michigan helps students turn project ideas into startups through mentorship, resources, and connections.",
   icons: {
     icon: [
-      { url: '/favicon.ico' },
-      { url: '/favicon.svg', type: 'image/svg+xml' }
+      { url: '/w1_logo.png' }
     ]
   }
 };
