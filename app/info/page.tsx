@@ -207,7 +207,7 @@ export default function Info() {
                 </p>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://experiencewmu.wmich.edu/organization/datascienceclub" 
+                    href="https://dscwmu.org" 
                     className="flex items-center justify-center px-4 py-2 bg-amber-100 hover:bg-amber-200 text-amber-800 rounded-lg transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
