@@ -1,7 +1,7 @@
 'use client';
 
 import SolidHeader from '../components/SolidHeader';
-import { FaFilePdf, FaFileAlt, FaFileContract, FaExternalLinkAlt, FaGlobe, FaGithub } from 'react-icons/fa';
+import { FaFilePdf, FaFileAlt, FaFileContract, FaExternalLinkAlt, FaGlobe, FaGithub, FaDiscord } from 'react-icons/fa';
 import Image from 'next/image';
 
 export default function Info() {
@@ -172,12 +172,12 @@ export default function Info() {
                 </p>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://experiencewmu.wmich.edu/organization/developerclub" 
+                    href="https://discord.com/invite/G9yE5s6NFM" 
                     className="flex items-center justify-center px-4 py-2 bg-amber-100 hover:bg-amber-200 text-amber-800 rounded-lg transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaGlobe className="mr-2" /> Website
+                    <FaDiscord className="mr-2" /> Discord
                   </a>
                   <a 
                     href="https://github.com/Developer-Club-WMU" 
