@@ -16,7 +16,7 @@ export default function Info() {
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-amber-900 mb-6">Documents</h2>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                Important documents and resources for W1 participants
+                Important documents and resources for W1 members
               </p>
             </div>
 
@@ -69,7 +69,7 @@ export default function Info() {
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-amber-900 mb-6">Resources</h2>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                We provide comprehensive resources to help you build and grow your startup
+                We have the resources to help you build and grow your startup
               </p>
             </div>
 
