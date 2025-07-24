@@ -68,7 +68,7 @@ const SchoolLogo = ({ school, index }: { school: School, index: number }) => (
 export default function SchoolLogos() {
   return (
     <div className="text-center mb-16">
-      <h2 className="text-3xl font-bold text-amber-950 mb-8">Students From</h2>
+      <h2 className="text-3xl font-bold text-amber-950 mb-8">Accepting Students From</h2>
       <div className="relative w-full bg-gradient-to-r from-amber-900/5 to-amber-950/5 rounded-2xl py-4 sm:py-8">
         <div className="logos-scroll-container">
           <div className="logos-scroll">
