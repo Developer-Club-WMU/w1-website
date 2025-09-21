@@ -278,9 +278,22 @@ export default function Info() {
       <footer className="bg-amber-900 text-white border-t border-amber-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="mt-8 pt-8 border-t border-amber-800">
-            <p className="text-sm text-amber-100 text-center">
-              © {new Date().getFullYear()} W1 Startup Community. All rights reserved.
-            </p>
+            <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+              <p className="text-sm text-amber-100">
+                © {new Date().getFullYear()} W1 Startup Community. All rights reserved.
+              </p>
+              <p className="text-sm text-amber-100">
+                This site uses Microsoft Clarity for analytics to improve user experience. 
+                <a 
+                  href="https://privacy.microsoft.com/en-us/privacystatement" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-amber-200 hover:text-white underline ml-1"
+                >
+                  View Microsoft's Privacy Statement
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </footer>
