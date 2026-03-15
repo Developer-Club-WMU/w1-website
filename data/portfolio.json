@@ -16,12 +16,17 @@
   },
   {
     "name": "GraduAI",
-    "image": "/images/portfolio/graduai.png",
+    "image": "/images/portfolio/graduai.jpeg",
     "url": "https://graduai.lovable.app/"
   },
   {
     "name": "Rooted",
-    "image": "/images/portfolio/rooted.png",
+    "image": "/images/portfolio/rooted.jpeg",
     "url": "https://rootedapp.lovable.app/"
+  },
+  {
+    "name": "Lumis",
+    "image": "/images/portfolio/lumis.png",
+    "url": "https://lumis-display.lovable.app/"
   }
 ]
