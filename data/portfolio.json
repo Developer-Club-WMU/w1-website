@@ -1,0 +1,27 @@
+[
+  {
+    "name": "VolleyNet",
+    "image": "/images/portfolio/volleynet.png",
+    "url": "https://www.volleynetapp.com/"
+  },
+  {
+    "name": "Shelf",
+    "image": "/images/portfolio/shelf.png",
+    "url": "https://www.shelfapp.io/"
+  },
+  {
+    "name": "Quever",
+    "image": "/images/portfolio/quever.png",
+    "url": "https://quever.sebastiandleon.dev/en"
+  },
+  {
+    "name": "GraduAI",
+    "image": "/images/portfolio/graduai.png",
+    "url": "https://graduai.lovable.app/"
+  },
+  {
+    "name": "Rooted",
+    "image": "/images/portfolio/rooted.png",
+    "url": "https://rootedapp.lovable.app/"
+  }
+]
