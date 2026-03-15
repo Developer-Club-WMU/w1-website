@@ -7,7 +7,6 @@ import { usePathname } from 'next/navigation';
 import { getNextSession } from '@/data/bronco-build-it-links';
 
 const navLinks = [
-  { href: '/#bronco-build-it', label: 'Bronco Build It' },
   { href: '/learn', label: 'Learn' },
   { href: '/ecosystem', label: 'Ecosystem' },
   { href: '/portfolio', label: 'Portfolio' },
@@ -40,6 +39,14 @@ export default function Navbar() {
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">
+            <a
+              href={session?.url ?? '/#bronco-build-it'}
+              target={session ? '_blank' : undefined}
+              rel={session ? 'noopener noreferrer' : undefined}
+              className="text-[15px] font-medium text-text-secondary hover:underline"
+            >
+              Bronco Build It
+            </a>
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -121,6 +128,15 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="md:hidden bg-cream/95 backdrop-blur-md border-b border-border">
           <div className="px-4 py-4 space-y-3">
+            <a
+              href={session?.url ?? '/#bronco-build-it'}
+              target={session ? '_blank' : undefined}
+              rel={session ? 'noopener noreferrer' : undefined}
+              onClick={() => setMobileOpen(false)}
+              className="block text-[15px] font-medium text-text-secondary hover:underline"
+            >
+              Bronco Build It
+            </a>
             {navLinks.map((link) => (
               <Link
                 key={link.href}
