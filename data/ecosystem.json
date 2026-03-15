@@ -1,0 +1,76 @@
+{
+  "regions": [
+    {
+      "city": "Kalamazoo",
+      "status": "active",
+      "orgs": [
+        {
+          "name": "StartupZoo",
+          "url": "https://startupzoo.org",
+          "description": "Kalamazoo's entrepreneurship hub - coworking, pitch nights, and incubator programs."
+        },
+        {
+          "name": "Starting Gate",
+          "url": "https://wmich.edu/startinggate",
+          "description": "WMU's year-long student business accelerator in the Haworth College of Business."
+        },
+        {
+          "name": "Cultivate269",
+          "url": "https://cultivate269.com",
+          "description": "$100K student pitch competition by Kalamazoo Forward Ventures."
+        },
+        {
+          "name": "RIDI",
+          "url": "https://wmich.edu/designinstitute",
+          "description": "WMU's Richmond Institute for Design & Innovation - product design meets entrepreneurship."
+        },
+        {
+          "name": "SBDC",
+          "url": "https://wmich.edu/research/smallbusiness",
+          "description": "Southwest Michigan Small Business Development Center - free consulting and market research."
+        }
+      ]
+    },
+    {
+      "city": "Grand Rapids",
+      "status": "active",
+      "orgs": [
+        {
+          "name": "Tech Week GR",
+          "url": "https://www.techweekgr.com/",
+          "description": "Grand Rapids' annual tech and innovation unconference - 120+ events, 15K attendees."
+        },
+        {
+          "name": "Start Garden",
+          "url": "https://startgarden.com",
+          "description": "Startup incubator, coworking, and pitch competitions including 5x5 Night and The 100."
+        },
+        {
+          "name": "DeVos CEI",
+          "url": "https://www.gvsu.edu/cei",
+          "description": "GVSU's Center for Entrepreneurship & Innovation - courses, competitions, and mentorship."
+        }
+      ]
+    },
+    {
+      "city": "Battle Creek",
+      "status": "expanding",
+      "orgs": []
+    },
+    {
+      "city": "Holland",
+      "status": "expanding",
+      "orgs": []
+    },
+    {
+      "city": "Chicago",
+      "status": "expanding",
+      "orgs": []
+    },
+    {
+      "city": "Detroit",
+      "status": "expanding",
+      "orgs": []
+    }
+  ]
+}
