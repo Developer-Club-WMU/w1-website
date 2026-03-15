@@ -54,26 +54,26 @@ export default function Hero() {
           </button>
 
           {dropdownOpen && (
-            <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-48 bg-warm-white rounded-lg shadow-lg border border-border overflow-hidden z-20">
+            <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-48 rounded-lg shadow-lg overflow-hidden z-20">
               <a
                 href={session?.url ?? '#'}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-between px-4 py-3 text-sm font-medium text-text-primary hover:bg-hover-bg"
+                className="flex items-center justify-between px-4 py-3 text-sm font-medium bg-black text-white"
               >
                 Join Event
-                <svg className="w-3.5 h-3.5 text-text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-3.5 h-3.5 text-white/70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
               </a>
               <a
-                href="https://discord.gg/w1build"
+                href="https://discord.com/invite/G9yE5s6NFM"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-between px-4 py-3 text-sm font-medium text-text-primary hover:bg-hover-bg border-t border-border"
+                className="flex items-center justify-between px-4 py-3 text-sm font-medium bg-[#5865F2] text-white"
               >
                 Join Discord
-                <svg className="w-3.5 h-3.5 text-text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-3.5 h-3.5 text-white/70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
               </a>
