@@ -43,8 +43,8 @@ export default function Learn() {
 
           <p className="mt-8 text-sm text-text-secondary">
             Have a resource to suggest? Reach out at{' '}
-            <a href="mailto:team@w1build.com" className="text-gold-bright hover:underline">
-              team@w1build.com
+            <a href="mailto:w1@student.groups.wexchange.wmich.edu" className="text-gold-bright hover:underline">
+              w1@student.groups.wexchange.wmich.edu
             </a>
           </p>
         </div>

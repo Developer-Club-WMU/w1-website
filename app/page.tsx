@@ -27,7 +27,7 @@ export default function Home() {
             <PillarCard
               id="ecosystem"
               title="Ecosystem"
-              description="We connect students to the Midwest startup network — and we keep expanding."
+              description="We connect students to the Midwest startup network - and we keep expanding."
               image="/images/cards/w1_ecosystem.png"
               href="/ecosystem"
             />

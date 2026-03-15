@@ -13,7 +13,7 @@ export default function Ecosystem() {
             Ecosystem
           </h1>
           <p className="mt-2 text-lg text-text-secondary">
-            The Midwest startup network — and we keep expanding.
+            The Midwest startup network - and we keep expanding.
           </p>
 
           <div className="mt-12">
