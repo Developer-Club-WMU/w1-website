@@ -1,9 +1,10 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { getNextSession } from '@/data/bronco-build-it-links';
 
 const navLinks = [
   { href: '/#bronco-build-it', label: 'Bronco Build It' },
@@ -14,7 +15,20 @@ const navLinks = [
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
+  const session = getNextSession();
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setDropdownOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-cream/80 backdrop-blur-md border-b border-border/50 transition-all duration-300">
@@ -37,6 +51,51 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
+
+            {/* Get Involved dropdown */}
+            <div className="relative" ref={dropdownRef}>
+              <button
+                onClick={() => setDropdownOpen(!dropdownOpen)}
+                className="inline-flex items-center gap-1.5 px-4 py-2 bg-wmu-gold text-brown-deep text-sm font-semibold rounded-lg cursor-pointer"
+              >
+                Get Involved
+                <svg
+                  className={`w-3.5 h-3.5 transition-transform duration-200 ${dropdownOpen ? 'rotate-180' : ''}`}
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              {dropdownOpen && (
+                <div className="absolute right-0 mt-2 w-48 rounded-lg shadow-lg overflow-hidden z-20">
+                  <a
+                    href={session?.url ?? '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-between px-4 py-3 text-sm font-medium bg-black text-white"
+                  >
+                    Join Event
+                    <svg className="w-3.5 h-3.5 text-white/70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://discord.com/invite/G9yE5s6NFM"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-between px-4 py-3 text-sm font-medium bg-[#5865F2] text-white"
+                  >
+                    Join Discord
+                    <svg className="w-3.5 h-3.5 text-white/70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+              )}
+            </div>
           </div>
 
           {/* Mobile hamburger */}
@@ -72,6 +131,22 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
+            <a
+              href={session?.url ?? '#'}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-[15px] font-medium text-text-secondary hover:underline"
+            >
+              Join Event
+            </a>
+            <a
+              href="https://discord.com/invite/G9yE5s6NFM"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-[15px] font-medium text-text-secondary hover:underline"
+            >
+              Join Discord
+            </a>
           </div>
         </div>
       )}
