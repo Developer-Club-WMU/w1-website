@@ -7,15 +7,23 @@ export interface SessionLink {
 export const sessionLinks: SessionLink[] = [
   {
     date: "2026-03-22",
-    url: "https://experience.wmich.edu/event/...",
+    url: "https://experiencewmu.wmich.edu/event/12336155",
   },
   {
     date: "2026-03-29",
-    url: "https://experience.wmich.edu/event/...",
+    url: "https://experiencewmu.wmich.edu/event/12336161",
   },
   {
     date: "2026-04-05",
-    url: "https://experience.wmich.edu/event/...",
+    url: "https://experiencewmu.wmich.edu/event/12336162",
+  },
+  {
+    date: "2026-04-12",
+    url: "https://experiencewmu.wmich.edu/event/12336163",
+  },
+  {
+    date: "2026-04-19",
+    url: "https://experiencewmu.wmich.edu/event/12336164",
   },
 ];
 
