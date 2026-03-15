@@ -17,10 +17,24 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "W1 Startup Community",
-  description: "W1 Startup Community based in West Michigan helps students turn project ideas into startups through mentorship, resources, and connections.",
+  title: "W1 @ WMU",
+  description: "A student startup community across Western Michigan and beyond.",
   icons: {
     icon: [{ url: '/w1_logo.png' }],
+  },
+  openGraph: {
+    title: "W1 @ WMU",
+    description: "A student startup community across Western Michigan and beyond.",
+    url: "https://www.w1build.com",
+    siteName: "W1 @ WMU",
+    images: [{ url: "/images/cards/w1_hero.png" }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "W1 @ WMU",
+    description: "A student startup community across Western Michigan and beyond.",
+    images: ["/images/cards/w1_hero.png"],
   },
 };
 
