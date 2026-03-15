@@ -7,27 +7,77 @@
         {
           "name": "StartupZoo",
           "url": "https://startupzoo.org",
-          "description": "Kalamazoo's entrepreneurship hub - coworking, pitch nights, and incubator programs."
+          "description": "Nonprofit community for Kalamazoo founders that hosts pitch nights, workshops, and networking for entrepreneurs."
         },
         {
           "name": "Starting Gate",
           "url": "https://wmich.edu/startinggate",
-          "description": "WMU's year-long student business accelerator in the Haworth College of Business."
+          "description": "WMU student business accelerator that runs across fall and spring semesters and ends with a public demo day."
         },
         {
           "name": "Cultivate269",
-          "url": "https://cultivate269.com",
-          "description": "$100K student pitch competition by Kalamazoo Forward Ventures."
+          "url": "https://kzfv.com/cultivate269",
+          "description": "$100K pitch competition for WMU students run by Kalamazoo Forward Ventures to fund underinvested founders."
         },
         {
-          "name": "RIDI",
+          "name": "Tsunami Lab",
+          "url": "https://kzfv.com/tsunami-lab",
+          "description": "Startup lab by Kalamazoo Forward Ventures that helps founders validate ideas and get investment ready."
+        },
+        {
+          "name": "RIDI Venture Studio",
           "url": "https://wmich.edu/designinstitute",
-          "description": "WMU's Richmond Institute for Design & Innovation - product design meets entrepreneurship."
+          "description": "Richmond Institute for Design and Innovation studio where students turn product ideas into market-ready ventures."
         },
         {
-          "name": "SBDC",
+          "name": "SBDC at WMU",
           "url": "https://wmich.edu/research/smallbusiness",
-          "description": "Southwest Michigan Small Business Development Center - free consulting and market research."
+          "description": "Michigan Small Business Development Center office at WMU that offers free consulting, training, and market research."
+        },
+        {
+          "name": "Developer Club WMU",
+          "url": "https://experiencewmu.wmich.edu/organization/developerclub",
+          "description": "Student developer community at WMU that builds software projects and helps members grow real-world coding skills."
+        },
+        {
+          "name": "Data Science & AI Club WMU",
+          "url": "https://experiencewmu.wmich.edu/organization/dsaic",
+          "description": "Student-run club that teaches data science and AI concepts through talks, workshops, and applied projects."
+        },
+        {
+          "name": "Business Tech Network WMU",
+          "url": "https://experiencewmu.wmich.edu/organization/btn",
+          "description": "WMU group for students interested in the intersection of business, technology, and innovation careers."
+        },
+        {
+          "name": "TechNext WMU",
+          "url": "https://technext-wmu.com/",
+          "description": "Tech and innovation club at WMU that showcases emerging technologies and connects students with industry."
+        },
+        {
+          "name": "WMed Innovation Center",
+          "url": "https://wmed.edu/innovationcenter",
+          "description": "Located on the WMU Parkview Campus and supports startups with labs, offices, and business support services."
+        },
+        {
+          "name": "Kalamazoo Startup Center",
+          "url": "https://startupkzoo.com/",
+          "description": "Small business service that specializes in bookkeeping, financial literacy, and monthly reporting, starting with a free consultation."
+        },
+        {
+          "name": "Liminal Group Ventures",
+          "url": "https://www.liminalgroupventures.com/",
+          "description": "Venture studio and entrepreneurial hub that helps aspiring founders and early-stage startups become investment ready."
+        },
+        {
+          "name": "Kalamazoo Entrepreneur Network (KZEN)",
+          "url": "https://www.thekzen.org/",
+          "description": "County-wide entrepreneur network focused on inclusive support and resource navigation for BIPOC and local founders."
+        },
+        {
+          "name": "LINK Kalamazoo",
+          "url": "https://linkkalamazoo.com/",
+          "description": "Community organization that connects Kalamazoo youth and young adults with career, education, and entrepreneurship opportunities."
         }
       ]
     },
@@ -38,17 +88,22 @@
         {
           "name": "Tech Week GR",
           "url": "https://www.techweekgr.com/",
-          "description": "Grand Rapids' annual tech and innovation unconference - 120+ events, 15K attendees."
+          "description": "Annual Grand Rapids tech and innovation festival with talks, meetups, and community events."
         },
         {
           "name": "Start Garden",
           "url": "https://startgarden.com",
-          "description": "Startup incubator, coworking, and pitch competitions including 5x5 Night and The 100."
+          "description": "Grand Rapids startup hub that offers coworking, pitch competitions, and founder support programs."
         },
         {
-          "name": "DeVos CEI",
+          "name": "DeVos Center for Entrepreneurship & Innovation",
           "url": "https://www.gvsu.edu/cei",
-          "description": "GVSU's Center for Entrepreneurship & Innovation - courses, competitions, and mentorship."
+          "description": "GVSU entrepreneurship center that provides courses, competitions, and mentorship for student founders."
+        },
+        {
+          "name": "MWC3",
+          "url": "https://mwc3.org/",
+          "description": "Annual Midwest Collegiate Computing Conference in Grand Rapids with hands-on student competitions, workshops, and industry-led sessions."
         }
       ]
     },
