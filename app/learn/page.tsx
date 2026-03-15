@@ -25,9 +25,9 @@ export default function Learn() {
                 href={resource.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group block bg-warm-white rounded-2xl p-8 border border-border hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
+                className="block bg-warm-white rounded-2xl p-8 border border-border cursor-pointer"
               >
-                <h2 className="font-serif text-[24px] sm:text-[28px] text-text-primary group-hover:text-gold-bright transition-colors">
+                <h2 className="font-serif text-[24px] sm:text-[28px] text-text-primary">
                   {resource.title}
                 </h2>
                 <p className="text-text-secondary mt-2">{resource.description}</p>

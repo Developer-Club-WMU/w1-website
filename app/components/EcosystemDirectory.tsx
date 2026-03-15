@@ -24,10 +24,10 @@ export default function EcosystemDirectory() {
                   href={org.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group bg-warm-white rounded-xl p-5 border border-border hover:-translate-y-1 hover:shadow-md transition-all duration-300"
+                  className="bg-warm-white rounded-xl p-5 border border-border cursor-pointer"
                 >
                   <div className="flex items-start justify-between gap-2">
-                    <h3 className="font-sans font-semibold text-text-primary group-hover:text-gold-bright transition-colors">
+                    <h3 className="font-sans font-semibold text-text-primary">
                       {org.name}
                     </h3>
                     <svg

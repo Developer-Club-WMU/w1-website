@@ -30,7 +30,7 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-[15px] font-medium transition-colors duration-200 hover:text-gold-bright ${
+                className={`text-[15px] font-medium hover:underline ${
                   pathname === link.href ? 'text-wmu-brown' : 'text-text-secondary'
                 }`}
               >
@@ -67,7 +67,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="block text-[15px] font-medium text-text-secondary hover:text-gold-bright transition-colors"
+                className="block text-[15px] font-medium text-text-secondary hover:underline"
               >
                 {link.label}
               </Link>

@@ -12,7 +12,7 @@ export default function PortfolioCard({ name, image, url }: PortfolioCardProps) 
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group block bg-warm-white rounded-2xl overflow-hidden border border-border hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
+      className="block bg-warm-white rounded-2xl overflow-hidden border border-border cursor-pointer"
     >
       <div className="relative aspect-video bg-hover-bg">
         <Image
@@ -24,7 +24,7 @@ export default function PortfolioCard({ name, image, url }: PortfolioCardProps) 
         />
       </div>
       <div className="p-5">
-        <h3 className="font-serif text-xl text-text-primary group-hover:text-gold-bright transition-colors">
+        <h3 className="font-serif text-xl text-text-primary">
           {name}
         </h3>
       </div>
