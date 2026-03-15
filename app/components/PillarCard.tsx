@@ -25,8 +25,8 @@ export default function PillarCard({
       id={id}
       className="bg-warm-white rounded-2xl overflow-hidden border border-border cursor-pointer flex flex-col h-full"
     >
-      {/* Photo area ~75-80% of card */}
-      <div className="relative aspect-[4/5]">
+      {/* Photo area */}
+      <div className="relative aspect-video">
         <Image
           src={image}
           alt={title}
