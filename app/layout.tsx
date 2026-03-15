@@ -1,49 +1,18 @@
 import type { Metadata } from "next";
-import localFont from 'next/font/local';
+import { Instrument_Serif, Inter } from 'next/font/google';
 import Script from 'next/script';
 import "./globals.css";
 
-const geistSans = localFont({
-  src: [
-    {
-      path: '../node_modules/geist/dist/fonts/geist-sans/Geist-Regular.woff2',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../node_modules/geist/dist/fonts/geist-sans/Geist-Medium.woff2',
-      weight: '500',
-      style: 'normal',
-    },
-    {
-      path: '../node_modules/geist/dist/fonts/geist-sans/Geist-Bold.woff2',
-      weight: '700',
-      style: 'normal',
-    }
-  ],
-  variable: '--font-geist-sans',
+const instrumentSerif = Instrument_Serif({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-instrument-serif',
   display: 'swap',
 });
 
-const geistMono = localFont({
-  src: [
-    {
-      path: '../node_modules/geist/dist/fonts/geist-mono/GeistMono-Regular.woff2',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../node_modules/geist/dist/fonts/geist-mono/GeistMono-Medium.woff2',
-      weight: '500',
-      style: 'normal',
-    },
-    {
-      path: '../node_modules/geist/dist/fonts/geist-mono/GeistMono-Bold.woff2',
-      weight: '700',
-      style: 'normal',
-    }
-  ],
-  variable: '--font-geist-mono',
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
   display: 'swap',
 });
 
@@ -51,10 +20,8 @@ export const metadata: Metadata = {
   title: "W1 Startup Community",
   description: "W1 Startup Community based in West Michigan helps students turn project ideas into startups through mentorship, resources, and connections.",
   icons: {
-    icon: [
-      { url: '/w1_logo.png' }
-    ]
-  }
+    icon: [{ url: '/w1_logo.png' }],
+  },
 };
 
 export default function RootLayout({
@@ -64,9 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${instrumentSerif.variable} ${inter.variable} font-sans antialiased`}>
         <Script id="microsoft-clarity" strategy="afterInteractive">
           {`
             (function(c,l,a,r,i,t,y){
