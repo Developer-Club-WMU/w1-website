@@ -13,6 +13,7 @@ export default function BroncoBuildIt() {
       id="bronco-build-it"
       title="Bronco Build It"
       description="Every Sunday at 2pm. Show up, build, ship."
+      image="/images/cards/w1_build.png"
       href={href}
       external
       footnote={footnote}

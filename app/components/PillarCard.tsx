@@ -1,13 +1,14 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface PillarCardProps {
   id?: string;
   title: string;
   description: string;
   href: string;
+  image: string;
   external?: boolean;
   footnote?: string;
-  children?: React.ReactNode;
 }
 
 export default function PillarCard({
@@ -15,28 +16,40 @@ export default function PillarCard({
   title,
   description,
   href,
+  image,
   external = false,
   footnote,
-  children,
 }: PillarCardProps) {
   const cardContent = (
     <div
       id={id}
-      className="bg-warm-white rounded-2xl p-8 sm:p-10 border border-border hover:-translate-y-1 hover:shadow-lg transition-all duration-300 cursor-pointer flex flex-col h-full"
+      className="bg-warm-white rounded-2xl overflow-hidden border border-border cursor-pointer flex flex-col h-full"
     >
-      {children}
-      <h3 className="font-serif text-[24px] sm:text-[28px] text-text-primary mt-4">
-        {title}
-      </h3>
-      <p className="text-text-secondary text-base mt-2 flex-grow">{description}</p>
-      {footnote && (
-        <p className="text-sm text-gold-bright font-medium mt-4">{footnote}</p>
-      )}
-      <div className="mt-4 flex items-center gap-1 text-gold-bright text-sm font-medium">
-        <span>{external ? 'RSVP' : 'Explore'}</span>
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-        </svg>
+      {/* Photo area ~75-80% of card */}
+      <div className="relative aspect-[4/5]">
+        <Image
+          src={image}
+          alt={title}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, 33vw"
+        />
+      </div>
+
+      {/* Title + description at bottom */}
+      <div className="p-5 sm:p-6">
+        <div className="flex items-center gap-2">
+          <h3 className="font-serif text-[22px] sm:text-[24px] text-text-primary">
+            {title}
+          </h3>
+          <svg className="w-4 h-4 text-text-secondary shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
+        </div>
+        <p className="text-text-secondary text-sm mt-1">{description}</p>
+        {footnote && (
+          <p className="text-xs text-gold-bright font-medium mt-2">{footnote}</p>
+        )}
       </div>
     </div>
   );

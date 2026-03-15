@@ -12,7 +12,7 @@ export default function Home() {
       <main className="flex-grow">
         <Hero />
 
-        <section className="pb-20 sm:pb-28 px-4">
+        <section className="py-20 sm:py-28 px-4">
           <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
             <BroncoBuildIt />
 
@@ -20,6 +20,7 @@ export default function Home() {
               id="learn"
               title="Learn"
               description="Resources to go from zero to building."
+              image="/images/cards/w1_learn.png"
               href="/learn"
             />
 
@@ -27,6 +28,7 @@ export default function Home() {
               id="ecosystem"
               title="Ecosystem"
               description="We connect students to the Midwest startup network — and we keep expanding."
+              image="/images/cards/w1_ecosystem.png"
               href="/ecosystem"
             />
           </div>
