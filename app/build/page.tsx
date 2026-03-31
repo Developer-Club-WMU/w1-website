@@ -13,13 +13,6 @@ export default function Build() {
     return d >= today;
   });
 
-  const past = [...sessionLinks]
-    .filter((s) => {
-      const d = new Date(s.date + 'T00:00:00');
-      return d < today;
-    })
-    .reverse();
-
   const hasUpcoming = upcoming.length > 0;
 
   return (
@@ -107,35 +100,6 @@ export default function Build() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                       </a>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Past sessions */}
-            {past.length > 0 && (
-              <div className="mt-8">
-                <p className="text-xs font-semibold uppercase tracking-wider text-text-secondary mb-4">
-                  Past
-                </p>
-                <div className="space-y-3">
-                  {past.map((session) => (
-                    <div
-                      key={session.date}
-                      className="flex items-center gap-3 px-5 py-4"
-                    >
-                      <span className="w-2 h-2 rounded-full border border-text-secondary/50 shrink-0" />
-                      <div>
-                        <p className="text-text-secondary font-medium">
-                          {formatSessionDate(session.date)}
-                        </p>
-                        {session.label && (
-                          <p className="text-xs text-text-secondary mt-0.5">
-                            {session.label}
-                          </p>
-                        )}
-                      </div>
                     </div>
                   ))}
                 </div>
