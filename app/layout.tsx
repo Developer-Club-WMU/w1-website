@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Instrument_Serif, Inter } from 'next/font/google';
 import Script from 'next/script';
+import SmoothScroll from './components/SmoothScroll';
 import "./globals.css";
 
 const instrumentSerif = Instrument_Serif({
@@ -55,6 +56,7 @@ export default function RootLayout({
             })(window, document, "clarity", "script", "te0c41vr61");
           `}
         </Script>
+        <SmoothScroll />
         {children}
       </body>
     </html>

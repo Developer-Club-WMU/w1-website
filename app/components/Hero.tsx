@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative min-h-[70vh] flex items-center justify-center px-4">
+    <section className="relative min-h-[65vh] flex items-center justify-center px-4">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
