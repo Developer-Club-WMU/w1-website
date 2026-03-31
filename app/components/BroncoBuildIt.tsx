@@ -5,7 +5,6 @@ import PillarCard from './PillarCard';
 
 export default function BroncoBuildIt() {
   const session = getNextSession();
-  const href = session?.url ?? '/';
   const footnote = session ? `Next session: ${formatSessionDate(session.date)}` : undefined;
 
   return (
@@ -14,8 +13,7 @@ export default function BroncoBuildIt() {
       title="Bronco Build It"
       description="Every Sunday at 2:30pm. Show up, build, ship."
       image="/images/cards/w1_build.png"
-      href={href}
-      external
+      href="/build"
       footnote={footnote}
     />
   );

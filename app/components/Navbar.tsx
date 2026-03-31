@@ -39,14 +39,14 @@ export default function Navbar() {
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">
-            <a
-              href={session?.url ?? '/#bronco-build-it'}
-              target={session ? '_blank' : undefined}
-              rel={session ? 'noopener noreferrer' : undefined}
-              className="text-[15px] font-medium text-text-secondary hover:underline"
+            <Link
+              href="/build"
+              className={`text-[15px] font-medium hover:underline ${
+                pathname === '/build' ? 'text-wmu-brown' : 'text-text-secondary'
+              }`}
             >
               Bronco Build It
-            </a>
+            </Link>
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -128,15 +128,15 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="md:hidden bg-cream/95 backdrop-blur-md border-b border-border">
           <div className="px-4 py-4 space-y-3">
-            <a
-              href={session?.url ?? '/#bronco-build-it'}
-              target={session ? '_blank' : undefined}
-              rel={session ? 'noopener noreferrer' : undefined}
+            <Link
+              href="/build"
               onClick={() => setMobileOpen(false)}
-              className="block text-[15px] font-medium text-text-secondary hover:underline"
+              className={`block text-[15px] font-medium hover:underline ${
+                pathname === '/build' ? 'text-wmu-brown' : 'text-text-secondary'
+              }`}
             >
               Bronco Build It
-            </a>
+            </Link>
             {navLinks.map((link) => (
               <Link
                 key={link.href}
