@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { sessionLinks, formatSessionDate, getNextSession } from '@/data/bronco-build-it-links';
@@ -32,28 +33,62 @@ export default function Build() {
           {/* Featured Next Session */}
           {nextSession && (
             <div className="mt-12">
-              <div className="bg-brown-deep rounded-2xl p-8 sm:p-10">
-                <p className="text-gold-bright text-sm font-semibold uppercase tracking-wider">
-                  {hasUpcoming ? 'Next Session' : 'Most Recent Session'}
-                </p>
-                <h2 className="font-serif text-[28px] sm:text-[36px] text-text-on-dark mt-2">
-                  {formatSessionDate(nextSession.date)}
-                </h2>
-                <p className="text-text-on-dark/70 mt-1 text-lg">2:30 PM</p>
-                {nextSession.label && (
-                  <p className="text-gold-bright mt-2 font-medium">{nextSession.label}</p>
-                )}
-                <a
-                  href={nextSession.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-wmu-gold text-brown-deep font-semibold rounded-lg hover:bg-gold-bright transition-colors"
-                >
-                  RSVP on ExperienceWMU
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                </a>
+              <div className="bg-brown-deep rounded-2xl p-8 sm:p-10 flex flex-col sm:flex-row gap-8">
+                {/* Text Content */}
+                <div className="flex-1 min-w-0">
+                  <p className="text-gold-bright text-sm font-semibold uppercase tracking-wider">
+                    {hasUpcoming ? 'Next Session' : 'Most Recent Session'}
+                  </p>
+                  <h2 className="font-serif text-[28px] sm:text-[36px] text-text-on-dark mt-2">
+                    {formatSessionDate(nextSession.date)}
+                  </h2>
+                  <p className="text-text-on-dark/70 mt-1 text-lg">2:30 PM</p>
+                  {nextSession.label && (
+                    <p className="text-gold-bright mt-2 font-medium">{nextSession.label}</p>
+                  )}
+                  <a
+                    href={nextSession.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-wmu-gold text-brown-deep font-semibold rounded-lg hover:bg-gold-bright transition-colors"
+                  >
+                    RSVP on ExperienceWMU
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+
+                {/* Photo Grid */}
+                <div className="hidden sm:grid grid-cols-[1.4fr_1fr] grid-rows-2 gap-2 w-[380px] h-[200px] shrink-0">
+                  <div className="row-span-2 relative rounded-lg overflow-hidden">
+                    <Image
+                      src="/images/bronco/bronco3.jpg"
+                      alt="Whiteboard session at Bronco Build It"
+                      fill
+                      className="object-cover"
+                      sizes="140px"
+                    />
+                  </div>
+                  <div className="relative rounded-lg overflow-hidden">
+                    <Image
+                      src="/images/bronco/bronco1.jpg"
+                      alt="Members working at Bronco Build It"
+                      fill
+                      className="object-cover"
+                      sizes="140px"
+                    />
+                  </div>
+                  <div className="relative rounded-lg overflow-hidden">
+                    <Image
+                      src="/images/bronco/bronco2.jpg"
+                      alt="Members at Bronco Build It"
+                      fill
+                      className="object-cover object-[center_70%]"
+                      sizes="140px"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           )}
