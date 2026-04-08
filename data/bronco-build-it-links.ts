@@ -33,7 +33,7 @@ export function getNextSession(): SessionLink | null {
 
   const upcoming = sessionLinks.find((session) => {
     const sessionDate = new Date(session.date + 'T00:00:00');
-    return sessionDate >= today;
+    return sessionDate > today;
   });
 
   if (upcoming) return upcoming;
