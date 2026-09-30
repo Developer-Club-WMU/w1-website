@@ -81,6 +81,16 @@ export default function Navbar() {
 
               {dropdownOpen && (
                 <div className="absolute right-0 mt-2 w-48 rounded-lg shadow-lg overflow-hidden z-20">
+                  <Link
+                    href="/build"
+                    onClick={() => setDropdownOpen(false)}
+                    className="flex items-center justify-between px-4 py-3 text-sm font-medium bg-black text-white"
+                  >
+                    Join Event
+                    <svg className="w-3.5 h-3.5 text-white/70" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </Link>
                   <a
                     href="https://discord.com/invite/G9yE5s6NFM"
                     target="_blank"
