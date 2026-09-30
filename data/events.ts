@@ -45,7 +45,7 @@ const buildSessions: RawEvent[] = sessions.map((s) => ({
   time: BUILD_SCHEDULE.time,
   location: BUILD_SCHEDULE.location,
   description: 'A weekly workspace for homework, side projects, and launching a business. Show up, build, ship.',
-  image: '/images/bronco/bronco3.jpg',
+  image: '/images/bronco/bronco_build_thumbnail.png',
 }));
 
 export const events: EventItem[] = [...(eventsData as RawEvent[]), ...buildSessions]
