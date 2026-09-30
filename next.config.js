@@ -13,6 +13,9 @@ const nextConfig = {
       { protocol: 'https', hostname: 'www.1millioncups.com' },
       { protocol: 'https', hostname: 'images.squarespace-cdn.com' },
       { protocol: 'https', hostname: 'cdn.prod.website-files.com' },
+      { protocol: 'https', hostname: 'a2tech360.com' },
+      { protocol: 'https', hostname: 'files.wmich.edu' },
+      { protocol: 'https', hostname: 'www.gvsu.edu' },
     ],
   },
 };
