@@ -6,8 +6,7 @@
     "time": "2:30 PM",
     "location": "WMU Student Center",
     "description": "A weekly workspace for homework, side projects, and launching a business. Meets in the WMU Student Center RSO Lounge.",
-    "image": "/images/bronco/bronco3.jpg",
-    "href": "https://experiencewmu.wmich.edu/event/12336155"
+    "image": "/images/bronco/bronco3.jpg"
   },
   {
     "id": "bronco-build-it-2026-03-29",
@@ -16,8 +15,7 @@
     "time": "2:30 PM",
     "location": "WMU Student Center",
     "description": "A weekly workspace for homework, side projects, and launching a business. Meets in the WMU Student Center RSO Lounge.",
-    "image": "/images/bronco/bronco3.jpg",
-    "href": "https://experiencewmu.wmich.edu/event/12336161"
+    "image": "/images/bronco/bronco3.jpg"
   },
   {
     "id": "bronco-build-it-2026-04-05",
@@ -26,8 +24,7 @@
     "time": "2:30 PM",
     "location": "WMU Student Center",
     "description": "A weekly workspace for homework, side projects, and launching a business. Meets in the WMU Student Center RSO Lounge.",
-    "image": "/images/bronco/bronco3.jpg",
-    "href": "https://experiencewmu.wmich.edu/event/12336162"
+    "image": "/images/bronco/bronco3.jpg"
   },
   {
     "id": "bronco-build-it-2026-04-12",
@@ -36,8 +33,7 @@
     "time": "2:30 PM",
     "location": "WMU Student Center",
     "description": "A weekly workspace for homework, side projects, and launching a business. Meets in the WMU Student Center RSO Lounge.",
-    "image": "/images/bronco/bronco3.jpg",
-    "href": "https://experiencewmu.wmich.edu/event/12336163"
+    "image": "/images/bronco/bronco3.jpg"
   },
   {
     "id": "bronco-build-it-2026-04-19",
@@ -46,8 +42,7 @@
     "time": "2:30 PM",
     "location": "WMU Student Center",
     "description": "A weekly workspace for homework, side projects, and launching a business. Meets in the WMU Student Center RSO Lounge.",
-    "image": "/images/bronco/bronco3.jpg",
-    "href": "https://experiencewmu.wmich.edu/event/12336164"
+    "image": "/images/bronco/bronco3.jpg"
   },
   {
     "id": "esp32-workshop-2026-04-15",
@@ -238,5 +233,204 @@
     "description": "Healthcare and life sciences semifinal of PitchMI, presented by the MSU Research Foundation and the MEDC. The winner takes $250,000 and advances to the statewide championship for another $1 million.",
     "image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,quality=75,width=1200,height=675/uploads/tg/30e03083-373f-41aa-a559-5d5c383e74e8.jpg",
     "href": "https://luma.com/omfpehhu"
+  },
+  {
+    "id": "a2tech360-tech-trek-2026-10-02",
+    "title": "a2Tech360: Tech Trek + Tech Talk",
+    "date": "2026-10-02",
+    "time": "1:00 PM",
+    "location": "Liberty Plaza, Downtown Ann Arbor",
+    "description": "Ann Arbor's biggest public tech showcase. More than 60 companies turn downtown into an innovation street fair from 1 to 5 PM, with live demos from local founders at Tech Talk. Hosted by Ann Arbor SPARK.",
+    "image": "https://a2tech360.com/wp-content/uploads/2025/02/TT24-Tile-1080x1600-1.webp",
+    "href": "https://a2tech360.com/events/tech-trek-2026/"
+  },
+  {
+    "id": "founders-first-friday-2026-10-02",
+    "title": "Founders First Friday",
+    "date": "2026-10-02",
+    "time": "10:00 AM",
+    "location": "Start Garden Vault, 2 Fulton St W, Grand Rapids",
+    "description": "No-agenda morning for active founders, with coffee, pastries, and real conversations. Hosted by Start Garden on the first Friday of each month.",
+    "image": "https://startgarden.com/wp-content/uploads/2026/09/OCT-SG0926web-FFF-Event-1080x1350-1-e1789656046287.jpg",
+    "href": "https://startgarden.com/start-garden-event/founders-first-friday-6/"
+  },
+  {
+    "id": "start-garden-first-fridays-2026-10-02",
+    "title": "Start Garden First Fridays",
+    "date": "2026-10-02",
+    "time": "5:00 PM",
+    "location": "Start Garden Vault, 2 Fulton St W, Grand Rapids",
+    "description": "Evening mixer with entrepreneurs, alumni, investors, and partners, with music and light bites. Open to anyone in the entrepreneurial community. Hosted by Start Garden.",
+    "image": "https://startgarden.com/wp-content/uploads/2026/09/SG0926web-FF-OCT-1080x1080-1.jpg",
+    "href": "https://startgarden.com/start-garden-event/start-garden-first-fridays-5/"
+  },
+  {
+    "id": "one-million-cups-kalamazoo-2026-10-05",
+    "title": "1 Million Cups Kalamazoo",
+    "date": "2026-10-05",
+    "time": "8:00 AM",
+    "location": "WMed Innovation Center, 4717 Campus Drive, Kalamazoo",
+    "description": "Free monthly morning meetup where two local founders present their businesses over coffee, then take questions and feedback from the room. Doors open at 8, presentations run 8:30 to 9:30.",
+    "image": "https://www.1millioncups.com/resource/1681248841000/X1MC_Orange_BG_Logo",
+    "href": "https://www.1millioncups.com/kalamazoo"
+  },
+  {
+    "id": "starting-gate-2026-10-05",
+    "title": "Starting Gate: The Birth of VolleyNet",
+    "date": "2026-10-05",
+    "time": "5:30 PM",
+    "location": "2150 Schneider Hall, Western Michigan University",
+    "description": "How VolleyNet went from concept to commercialization. Part of the weekly speaker series from Starting Gate, WMU's student business accelerator, open to all WMU students.",
+    "image": "https://files.wmich.edu/s3fs-public/styles/3_2/public/2026-08/business_event-starting_gate.png?h=c29551c4&itok=D-xYIKpe",
+    "href": "https://wmich.edu/business/events/starting-gate-100526"
+  },
+  {
+    "id": "starting-gate-2026-10-12",
+    "title": "Starting Gate: Commercial Lending",
+    "date": "2026-10-12",
+    "time": "5:30 PM",
+    "location": "2150 Schneider Hall, Western Michigan University",
+    "description": "How commercial lending works in the current economic environment. Part of the weekly speaker series from Starting Gate, WMU's student business accelerator, open to all WMU students.",
+    "image": "https://files.wmich.edu/s3fs-public/styles/3_2/public/2026-08/business_event-starting_gate.png?h=c29551c4&itok=D-xYIKpe",
+    "href": "https://wmich.edu/business/events/starting-gate-101226"
+  },
+  {
+    "id": "starting-gate-2026-10-19",
+    "title": "Starting Gate: So, You Want to Own a Business?",
+    "date": "2026-10-19",
+    "time": "5:30 PM",
+    "location": "2150 Schneider Hall, Western Michigan University",
+    "description": "What running a business looks like from the owner's viewpoint. Part of the weekly speaker series from Starting Gate, WMU's student business accelerator, open to all WMU students.",
+    "image": "https://files.wmich.edu/s3fs-public/styles/3_2/public/2026-08/business_event-starting_gate.png?h=c29551c4&itok=D-xYIKpe",
+    "href": "https://wmich.edu/business/events/starting-gate-101926"
+  },
+  {
+    "id": "centrepolis-hard-tech-pitch-2026-10-21",
+    "title": "Centrepolis Hard Tech Pitch Competition",
+    "date": "2026-10-21",
+    "time": "4:30 PM",
+    "location": "Start Garden Vault, 2 Fulton St W, Grand Rapids",
+    "description": "Pitch competition for hardware, manufacturing, and physical-product startups. Run by the Centrepolis Accelerator and hosted at Start Garden.",
+    "image": "https://startgarden.com/wp-content/uploads/2026/08/MANUFACTURING_101.jpg",
+    "href": "https://startgarden.com/start-garden-event/centrepolis-hard-tech-pitch-competition/"
+  },
+  {
+    "id": "start-garden-demo-day-2026-10-22",
+    "title": "Start Garden Demo Day",
+    "date": "2026-10-22",
+    "time": "5:00 PM",
+    "location": "Start Garden, 2 Fulton St W, Grand Rapids",
+    "description": "50 Grand Rapids startup finalists demo on the expo floor from 5 to 7 PM, then up to $500,000 in grants, investments, loans, and contracts gets announced live on stage. Hosted by Start Garden and Bamboo.",
+    "image": "https://startgarden.com/wp-content/uploads/2026/08/SG0626adm_2026-DemoDayLogo_B-Square.png",
+    "href": "https://startgarden.com/start-garden-event/demo-day/"
+  },
+  {
+    "id": "starting-gate-2026-10-26",
+    "title": "Starting Gate: Providing Leadership",
+    "date": "2026-10-26",
+    "time": "5:30 PM",
+    "location": "2150 Schneider Hall, Western Michigan University",
+    "description": "Providing leadership within your organization. Part of the weekly speaker series from Starting Gate, WMU's student business accelerator, open to all WMU students.",
+    "image": "https://files.wmich.edu/s3fs-public/styles/3_2/public/2026-08/business_event-starting_gate.png?h=c29551c4&itok=D-xYIKpe",
+    "href": "https://wmich.edu/business/events/starting-gate-102626"
+  },
+  {
+    "id": "one-million-cups-kalamazoo-2026-11-02",
+    "title": "1 Million Cups Kalamazoo",
+    "date": "2026-11-02",
+    "time": "8:00 AM",
+    "location": "WMed Innovation Center, 4717 Campus Drive, Kalamazoo",
+    "description": "Free monthly morning meetup where two local founders present their businesses over coffee, then take questions and feedback from the room. Doors open at 8, presentations run 8:30 to 9:30.",
+    "image": "https://www.1millioncups.com/resource/1681248841000/X1MC_Orange_BG_Logo",
+    "href": "https://www.1millioncups.com/kalamazoo"
+  },
+  {
+    "id": "starting-gate-2026-11-02",
+    "title": "Starting Gate: Student-Made Store Launch",
+    "date": "2026-11-02",
+    "time": "5:30 PM",
+    "location": "2150 Schneider Hall, Western Michigan University",
+    "description": "Info session and launch of the Starting Gate student-made store. From Starting Gate, WMU's student business accelerator, open to all WMU students.",
+    "image": "https://files.wmich.edu/s3fs-public/styles/3_2/public/2026-08/business_event-starting_gate.png?h=c29551c4&itok=D-xYIKpe",
+    "href": "https://wmich.edu/business/events/starting-gate-111626"
+  },
+  {
+    "id": "lakeshore-business-growth-expo-2026-11-04",
+    "title": "Lakeshore Business Growth Expo",
+    "date": "2026-11-04",
+    "time": "3:00 PM",
+    "location": "Muskegon Innovation Hub, 200 Viridian Drive, Muskegon",
+    "description": "Free expo for West Michigan entrepreneurs and small businesses, 3 to 6 PM, with resource providers, funders, and support organizations under one roof. Hosted by the GVSU Muskegon Innovation Hub.",
+    "image": "https://www.gvsu.edu/cms5/asset/cceeebc2-db71-47ef-8c8c-ceb03f2f6e23/f6ec9e47-76e9-4926-bb73-84ac3f8781d5/thumbnails/500%5B1782482768%5D.jpg",
+    "href": "https://www.gvsu.edu/mihub/module/f0023580-b842-4393-8a2e-82d3b1904d79/event/3187e9c7-91a6-44be-82cc-8ead91f8107b"
+  },
+  {
+    "id": "founders-first-friday-2026-11-06",
+    "title": "Founders First Friday",
+    "date": "2026-11-06",
+    "time": "10:00 AM",
+    "location": "Start Garden Vault, 2 Fulton St W, Grand Rapids",
+    "description": "No-agenda morning for active founders, with coffee, pastries, and real conversations. Hosted by Start Garden on the first Friday of each month.",
+    "image": "https://startgarden.com/wp-content/uploads/2026/09/NOV-SG0926web-FFF-Event-1080x1080-1.jpg",
+    "href": "https://startgarden.com/start-garden-event/founders-first-friday-7/"
+  },
+  {
+    "id": "start-garden-first-fridays-2026-11-06",
+    "title": "Start Garden First Fridays",
+    "date": "2026-11-06",
+    "time": "5:00 PM",
+    "location": "Start Garden Vault, 2 Fulton St W, Grand Rapids",
+    "description": "Evening mixer with entrepreneurs, alumni, investors, and partners. Open to anyone in the entrepreneurial community. Hosted by Start Garden.",
+    "image": "https://startgarden.com/wp-content/uploads/2026/09/SG0926web-FF-NOV-1080x1080-1.jpg",
+    "href": "https://startgarden.com/start-garden-event/start-garden-first-fridays-6/"
+  },
+  {
+    "id": "starting-gate-2026-11-09",
+    "title": "Starting Gate: Legal Considerations for Startups",
+    "date": "2026-11-09",
+    "time": "5:30 PM",
+    "location": "2150 Schneider Hall, Western Michigan University",
+    "description": "The legal side of launching a startup venture. Part of the weekly speaker series from Starting Gate, WMU's student business accelerator, open to all WMU students.",
+    "image": "https://files.wmich.edu/s3fs-public/styles/3_2/public/2026-08/business_event-starting_gate.png?h=c29551c4&itok=D-xYIKpe",
+    "href": "https://wmich.edu/business/events/starting-gate-110926"
+  },
+  {
+    "id": "startup-zoo-pitch-night-2026-11-13",
+    "title": "Startup Zoo Pitch Night",
+    "date": "2026-11-13",
+    "time": "6:00 PM",
+    "location": "229 East Michigan Avenue, Suite 335, Kalamazoo",
+    "description": "Five Kalamazoo founders pitch three judges for $10,000 in equity-free capital. The audience votes for a People's Favorite, who wins an additional $1,000. Hosted by Startup Zoo.",
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1103090103%2F1321853764763%2F1%2Foriginal.20250822-232426?crop=focalpoint&fit=crop&w=1880&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00517045454545&fp-y=0.00448504983389&s=307961648206733ccc258b6bd601c947",
+    "href": "https://www.eventbrite.com/e/pitch-night-tickets-491562585927"
+  },
+  {
+    "id": "starting-gate-2026-11-16",
+    "title": "Starting Gate: Finding a Business Niche",
+    "date": "2026-11-16",
+    "time": "5:30 PM",
+    "location": "2150 Schneider Hall, Western Michigan University",
+    "description": "How to find a business niche to exploit. Part of the weekly speaker series from Starting Gate, WMU's student business accelerator, open to all WMU students.",
+    "image": "https://files.wmich.edu/s3fs-public/styles/3_2/public/2026-08/business_event-starting_gate.png?h=c29551c4&itok=D-xYIKpe",
+    "href": "https://wmich.edu/business/events/starting-gate-110226"
+  },
+  {
+    "id": "starting-gate-2026-11-23",
+    "title": "Starting Gate: Getting Unstuck!",
+    "date": "2026-11-23",
+    "time": "5:30 PM",
+    "location": "2150 Schneider Hall, Western Michigan University",
+    "description": "How to get moving again when progress on your business stalls. Part of the weekly speaker series from Starting Gate, WMU's student business accelerator, open to all WMU students.",
+    "image": "https://files.wmich.edu/s3fs-public/styles/3_2/public/2026-08/business_event-starting_gate.png?h=c29551c4&itok=D-xYIKpe",
+    "href": "https://wmich.edu/business/events/starting-gate-112326"
+  },
+  {
+    "id": "wmu-innovation-expo-2026-12-04",
+    "title": "WMU Innovation Expo",
+    "date": "2026-12-04",
+    "time": "9:00 AM",
+    "location": "Floyd Hall, Parkview Engineering Campus",
+    "description": "WMU and K-12 student teams pitch products and prototypes to community judges and the public, who vote with innovation dollars. Got a build to show? Team registration closes November 2.",
+    "href": "https://wmich.edu/innovation-expo"
   }
 ]
